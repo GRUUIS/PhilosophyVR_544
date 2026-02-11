@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "PhilosopherVR_544",
+			"Path": "..\\Source\\PhilosopherVR_544.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "PhilosopherVR_544Editor",
+			"Path": "..\\Source\\PhilosopherVR_544Editor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

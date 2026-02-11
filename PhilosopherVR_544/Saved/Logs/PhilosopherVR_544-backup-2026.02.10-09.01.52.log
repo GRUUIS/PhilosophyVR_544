@@ -1,0 +1,870 @@
+﻿Log file open, 02/10/26 17:00:41
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=1920)
+LogWindows: File 'aqProf.dll' does not exist
+LogProfilingDebugging: Loading WinPixEventRuntime.dll for PIX profiling (from ../../../Engine/Binaries/ThirdParty/Windows/WinPixEventRuntime/x64).
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=1920)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=1920)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogWindows: Started CrashReportClient (pid=28088)
+LogWindows: Enabling Tpause support
+LogWindows: Custom abort handler registered for crash reporting.
+LogInit: Display: Running engine for game: PhilosopherVR_544
+LogCore: UTS: Unreal Trace Server launched successfully
+LogTrace: Initializing trace...
+LogCore: Display: Requested channels: 'cpu,gpu,frame,log,bookmark,screenshot,region'
+LogTrace: Finished trace initialization.
+LogCsvProfiler: Display: Metadata set : platform="Windows"
+LogCsvProfiler: Display: Metadata set : config="Development"
+LogCsvProfiler: Display: Metadata set : buildversion="++UE5+Release-5.4-CL-35576357"
+LogCsvProfiler: Display: Metadata set : engineversion="5.4.4-35576357+++UE5+Release-5.4"
+LogCsvProfiler: Display: Metadata set : os="Windows 11 (24H2) [10.0.26100.7623] "
+LogCsvProfiler: Display: Metadata set : cpu="GenuineIntel|Intel(R) Core(TM) Ultra 9 275HX"
+LogCsvProfiler: Display: Metadata set : pgoenabled="0"
+LogCsvProfiler: Display: Metadata set : pgoprofilingenabled="0"
+LogCsvProfiler: Display: Metadata set : ltoenabled="0"
+LogCsvProfiler: Display: Metadata set : asan="0"
+LogCsvProfiler: Display: Metadata set : commandline="" D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\PhilosopherVR_544.uproject""
+LogCsvProfiler: Display: Metadata set : loginid="09ccbeb547c96dcbdf925081cd19ca85"
+LogCsvProfiler: Display: Metadata set : llm="0"
+LogStats: Stats thread started at 0.281179
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +8:00, Platform Override: ''
+LogInit: Session CrashGUID >====================================================
+         Session CrashGUID >   UECC-Windows-E44B9026480A508F1AFB468149D07389
+         Session CrashGUID >====================================================
+LogConfig: No local boot hotfix file found at: [D:/UE/toGithub/PhilosophyVR_544/PhilosopherVR_544/Saved/PersistentDownloadDir/HotfixForNextBoot.txt]
+LogAssetRegistry: Display: Asset registry cache read as 23.6 MiB from D:/UE/toGithub/PhilosophyVR_544/PhilosopherVR_544/Intermediate/CachedAssetRegistry_0.bin
+LogConfig: Display: Loading IOS ini files took 0.03 seconds
+LogConfig: Display: Loading Mac ini files took 0.03 seconds
+LogConfig: Display: Loading Android ini files took 0.03 seconds
+LogConfig: Display: Loading VulkanPC ini files took 0.03 seconds
+LogConfig: Display: Loading Unix ini files took 0.03 seconds
+LogConfig: Display: Loading TVOS ini files took 0.03 seconds
+LogConfig: Display: Loading Windows ini files took 0.04 seconds
+LogConfig: Display: Loading VisionOS ini files took 0.04 seconds
+LogConfig: Display: Loading Linux ini files took 0.04 seconds
+LogConfig: Display: Loading LinuxArm64 ini files took 0.04 seconds
+LogPluginManager: Display: Ignored optional reference to 'ConcertSyncClient' plugin from 'LiveLink' plugin; plugin was not built by target.
+LogPluginManager: Mounting Engine plugin Bridge
+LogPluginManager: Mounting Engine plugin ChaosCloth
+LogPluginManager: Mounting Engine plugin ChaosVD
+LogPluginManager: Found config from plugin[ChaosVD] Engine
+LogPluginManager: Mounting Engine plugin CmdLinkServer
+LogPluginManager: Mounting Engine plugin EnhancedInput
+LogPluginManager: Found config from plugin[EnhancedInput] Input
+LogPluginManager: Mounting Engine plugin Fab
+LogPluginManager: Mounting Engine plugin FastBuildController
+LogPluginManager: Mounting Engine plugin MeshPainting
+LogPluginManager: Mounting Engine plugin RenderGraphInsights
+LogPluginManager: Mounting Engine plugin TraceUtilities
+LogPluginManager: Mounting Engine plugin WorldMetrics
+LogPluginManager: Mounting Engine plugin XGEController
+LogPluginManager: Mounting Engine plugin AISupport
+LogPluginManager: Mounting Engine plugin EnvironmentQueryEditor
+LogPluginManager: Mounting Engine plugin AnimationSharing
+LogPluginManager: Mounting Engine plugin CLionSourceCodeAccess
+LogPluginManager: Mounting Engine plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting Engine plugin DumpGPUServices
+LogPluginManager: Mounting Engine plugin GitSourceControl
+LogPluginManager: Mounting Engine plugin NullSourceCodeAccess
+LogPluginManager: Mounting Engine plugin PerforceSourceControl
+LogPluginManager: Mounting Engine plugin N10XSourceCodeAccess
+LogPluginManager: Mounting Engine plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting Engine plugin PixWinPlugin
+LogPluginManager: Mounting Engine plugin PlasticSourceControl
+LogPluginManager: Mounting Engine plugin PluginUtils
+LogPluginManager: Mounting Engine plugin PropertyAccessNode
+LogPluginManager: Mounting Engine plugin RiderSourceCodeAccess
+LogPluginManager: Mounting Engine plugin RenderDocPlugin
+LogPluginManager: Mounting Engine plugin SubversionSourceControl
+LogPluginManager: Mounting Engine plugin TextureFormatOodle
+LogPluginManager: Mounting Engine plugin TraceDataFilters
+LogPluginManager: Mounting Engine plugin UObjectPlugin
+LogPluginManager: Mounting Engine plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting Engine plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting Engine plugin DatasmithContent
+LogPluginManager: Mounting Engine plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting Engine plugin GLTFExporter
+LogPluginManager: Mounting Engine plugin VariantManagerContent
+LogPluginManager: Mounting Engine plugin VariantManager
+LogPluginManager: Mounting Engine plugin NiagaraSimCaching
+LogPluginManager: Mounting Engine plugin Niagara
+LogPluginManager: Mounting Engine plugin TcpMessaging
+LogPluginManager: Mounting Engine plugin UdpMessaging
+LogPluginManager: Mounting Engine plugin LauncherChunkInstaller
+LogPluginManager: Mounting Engine plugin ACLPlugin
+LogPluginManager: Mounting Engine plugin AnimationData
+LogPluginManager: Mounting Engine plugin AnimationModifierLibrary
+LogPluginManager: Mounting Engine plugin ControlRig
+LogPluginManager: Mounting Engine plugin ControlRigSpline
+LogPluginManager: Mounting Engine plugin ControlRigModules
+LogPluginManager: Mounting Engine plugin IKRig
+LogPluginManager: Mounting Engine plugin LiveLink
+LogPluginManager: Mounting Engine plugin MotionWarping
+LogPluginManager: Mounting Engine plugin OodleNetwork
+LogPluginManager: Mounting Engine plugin Interchange
+LogPluginManager: Mounting Engine plugin InterchangeEditor
+LogPluginManager: Mounting Engine plugin ActorSequence
+LogPluginManager: Mounting Engine plugin LevelSequenceEditor
+LogPluginManager: Mounting Engine plugin BlendSpaceMotionAnalysis
+LogPluginManager: Mounting Engine plugin ActorLayerUtilities
+LogPluginManager: Mounting Engine plugin SequencerScripting
+LogPluginManager: Mounting Engine plugin TemplateSequence
+LogPluginManager: Mounting Engine plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin AndroidMoviePlayer
+LogPluginManager: Mounting Engine plugin AndroidPermission
+LogPluginManager: Mounting Engine plugin AndroidFileServer
+LogPluginManager: Mounting Engine plugin AppleMoviePlayer
+LogPluginManager: Mounting Engine plugin AppleImageUtils
+LogPluginManager: Mounting Engine plugin AssetTags
+LogPluginManager: Mounting Engine plugin AudioCapture
+LogPluginManager: Mounting Engine plugin AudioSynesthesia
+LogPluginManager: Mounting Engine plugin AudioWidgets
+LogPluginManager: Mounting Engine plugin CableComponent
+LogPluginManager: Mounting Engine plugin ChunkDownloader
+LogPluginManager: Mounting Engine plugin ArchVisCharacter
+LogPluginManager: Mounting Engine plugin CustomMeshComponent
+LogPluginManager: Mounting Engine plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin GeometryCache
+LogPluginManager: Mounting Engine plugin GeometryProcessing
+LogPluginManager: Mounting Engine plugin GoogleCloudMessaging
+LogPluginManager: Mounting Engine plugin GooglePAD
+LogPluginManager: Mounting Engine plugin InputDebugging
+LogPluginManager: Found config from plugin[InputDebugging] Input
+LogPluginManager: Mounting Engine plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin MeshModelingToolset
+LogPluginManager: Mounting Engine plugin Metasound
+LogPluginManager: Mounting Engine plugin LocationServicesBPLibrary
+LogPluginManager: Mounting Engine plugin MobilePatchingUtils
+LogPluginManager: Mounting Engine plugin MsQuic
+LogPluginManager: Mounting Engine plugin NetworkPrediction
+LogPluginManager: Mounting Engine plugin OpenXR
+LogPluginManager: Found config from plugin[OpenXR] Engine
+LogPluginManager: Mounting Engine plugin OpenXREyeTracker
+LogPluginManager: Mounting Engine plugin OpenXRHandTracking
+LogPluginManager: Mounting Engine plugin ProceduralMeshComponent
+LogPluginManager: Mounting Engine plugin PropertyAccessEditor
+LogPluginManager: Mounting Engine plugin RigVM
+LogPluginManager: Mounting Engine plugin SignificanceManager
+LogPluginManager: Mounting Engine plugin ResonanceAudio
+LogPluginManager: Mounting Engine plugin SoundFields
+LogPluginManager: Mounting Engine plugin WaveTable
+LogPluginManager: Mounting Engine plugin WindowsMoviePlayer
+LogPluginManager: Mounting Engine plugin WebMMoviePlayer
+LogPluginManager: Mounting Engine plugin WindowsDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin XRBase
+LogPluginManager: Mounting Engine plugin Synthesis
+LogPluginManager: Mounting Engine plugin InterchangeTests
+LogPluginManager: Mounting Engine plugin Takes
+LogPluginManager: Mounting Engine plugin GameplayCameras
+LogPluginManager: Mounting Engine plugin CameraShakePreviewer
+LogPluginManager: Mounting Engine plugin AutomationUtils
+LogPluginManager: Mounting Engine plugin BackChannel
+LogPluginManager: Mounting Engine plugin ChaosCaching
+LogPluginManager: Mounting Engine plugin ChaosEditor
+LogPluginManager: Mounting Engine plugin ChaosNiagara
+LogPluginManager: Mounting Engine plugin ChaosSolverPlugin
+LogPluginManager: Mounting Engine plugin ChaosVehiclesPlugin
+LogPluginManager: Mounting Engine plugin ChaosUserDataPT
+LogPluginManager: Mounting Engine plugin CharacterAI
+LogPluginManager: Mounting Engine plugin Fracture
+LogPluginManager: Mounting Engine plugin GeometryCollectionPlugin
+LogPluginManager: Mounting Engine plugin Landmass
+LogPluginManager: Mounting Engine plugin FullBodyIK
+LogPluginManager: Mounting Engine plugin LocalizableMessage
+LogPluginManager: Mounting Engine plugin MeshModelingToolsetExp
+LogPluginManager: Mounting Engine plugin Mover
+LogPluginManager: Mounting Engine plugin OpenImageDenoise
+LogPluginManager: Mounting Engine plugin PlanarCut
+LogPluginManager: Mounting Engine plugin PlatformCrypto
+LogPluginManager: Mounting Engine plugin PythonScriptPlugin
+LogPluginManager: Mounting Engine plugin Dataflow
+LogPluginManager: Mounting Engine plugin SkeletalReduction
+LogPluginManager: Mounting Engine plugin StructUtils
+LogPluginManager: Mounting Engine plugin ToolPresets
+LogPluginManager: Mounting Engine plugin Water
+LogPluginManager: Mounting Engine plugin EOSShared
+LogPluginManager: Mounting Engine plugin OnlineBase
+LogPluginManager: Mounting Engine plugin OnlineServices
+LogPluginManager: Mounting Engine plugin OnlineSubsystem
+LogPluginManager: Mounting Engine plugin OnlineSubsystemNull
+LogPluginManager: Mounting Engine plugin OnlineSubsystemUtils
+LogPluginManager: Mounting Engine plugin StudioTelemetry
+LogPluginManager: Mounting Engine plugin AssetManagerEditor
+LogPluginManager: Mounting Engine plugin Paper2D
+LogPluginManager: Mounting Engine plugin BlueprintHeaderView
+LogPluginManager: Mounting Engine plugin CryptoKeys
+LogPluginManager: Mounting Engine plugin CurveEditorTools
+LogPluginManager: Mounting Engine plugin ChangelistReview
+LogPluginManager: Mounting Engine plugin BlueprintMaterialTextureNodes
+LogPluginManager: Mounting Engine plugin EditorScriptingUtilities
+LogPluginManager: Mounting Engine plugin EngineAssetDefinitions
+LogPluginManager: Mounting Engine plugin GeometryMode
+LogPluginManager: Mounting Engine plugin FacialAnimation
+LogPluginManager: Mounting Engine plugin EditorDebugTools
+LogPluginManager: Mounting Engine plugin MaterialAnalyzer
+LogPluginManager: Mounting Engine plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting Engine plugin PluginBrowser
+LogPluginManager: Mounting Engine plugin ProxyLODPlugin
+LogPluginManager: Mounting Engine plugin SequencerAnimTools
+LogPluginManager: Mounting Engine plugin SpeedTreeImporter
+LogPluginManager: Mounting Engine plugin UVEditor
+LogPluginManager: Mounting Engine plugin WorldPartitionHLODUtilities
+LogPluginManager: Mounting Engine plugin AndroidMedia
+LogPluginManager: Mounting Engine plugin AvfMedia
+LogPluginManager: Mounting Engine plugin MediaCompositing
+LogPluginManager: Mounting Engine plugin MediaPlate
+LogPluginManager: Mounting Engine plugin ImgMedia
+LogPluginManager: Mounting Engine plugin WmfMedia
+LogPluginManager: Mounting Engine plugin WebMMedia
+LogPluginManager: Mounting Engine plugin MediaPlayerEditor
+LogPluginManager: Mounting Engine plugin GameplayTagsEditor
+LogPluginManager: Mounting Engine plugin DataValidation
+LogPluginManager: Mounting Engine plugin AlembicImporter
+LogPluginManager: Mounting Engine plugin MacGraphicsSwitching
+LogPluginManager: Mounting Engine plugin MetaHumanProjectUtilities
+LogPluginManager: Mounting Engine plugin OnlineSubsystemIOS
+LogPluginManager: Mounting Engine plugin XInputDevice
+LogPluginManager: Mounting Engine plugin ObjectMixer
+LogPluginManager: Mounting Engine plugin LightMixer
+LogPluginManager: Mounting Engine plugin ContentBrowserAssetDataSource
+LogPluginManager: Mounting Engine plugin ContentBrowserFileDataSource
+LogPluginManager: Mounting Engine plugin ContentBrowserClassDataSource
+LogPluginManager: Mounting Engine plugin PortableObjectFileDataSource
+LogPluginManager: Mounting Engine plugin BaseCharacterFXEditor
+LogPluginManager: Mounting Engine plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting Project plugin VRExpansionPlugin
+SourceControl: Revision control is disabled
+SourceControl: Revision control is disabled
+SourceControl: Revision control is disabled
+LogInit: Warning: Incompatible or missing module: PhilosopherVR_544
+LogInit: Warning: Incompatible or missing module: VRExpansionPlugin
+LogInit: Warning: Incompatible or missing module: VRExpansionEditor
+Running C:/Program Files/Epic Games/UE_5.4/Engine/Build/BatchFiles/Build.bat Development Win64 -Project="D:/UE/toGithub/PhilosophyVR_544/PhilosopherVR_544/PhilosopherVR_544.uproject" -TargetType=Editor -Progress -NoEngineChanges -NoHotReloadFromIDE
+Using bundled DotNet SDK version: 6.0.302
+Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" Development Win64 -Project="D:/UE/toGithub/PhilosophyVR_544/PhilosopherVR_544/PhilosopherVR_544.uproject" -TargetType=Editor -Progress -NoEngineChanges -NoHotReloadFromIDE
+Log file: C:\Users\ALIENWARE\AppData\Local\UnrealBuildTool\Log.txt
+Using 'git status' to determine working set for adaptive non-unity build (D:\UE\toGithub\PhilosophyVR_544).
+Creating makefile for PhilosopherVR_544Editor (no existing makefile)
+@progress push 5%
+Parsing headers for PhilosopherVR_544Editor
+  Running Internal UnrealHeaderTool D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\PhilosopherVR_544.uproject D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Intermediate\Build\Win64\PhilosopherVR_544Editor\Development\PhilosopherVR_544Editor.uhtmanifest -WarningsAsErrors -installed
+Total of 128 written
+Reflection code generated for PhilosopherVR_544Editor in 0.7586313 seconds
+@progress pop
+Building PhilosopherVR_544Editor...
+Using Visual Studio 2022 14.38.33145 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130) and Windows 10.0.26100.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[Upgrade]
+[Upgrade] Using backward-compatible include order. The latest version of UE has changed the order of includes, which may require code changes. The current setting is:
+[Upgrade]     IncludeOrderVersion = EngineIncludeOrderVersion.Oldest
+[Upgrade] Suppress this message by setting 'IncludeOrderVersion = EngineIncludeOrderVersion.Latest;' in PhilosopherVR_544Editor.Target.cs.
+[Upgrade] Alternatively you can set this to 'EngineIncludeOrderVersion.Latest' to always use the latest include order. This will potentially cause compile errors when integrating new versions of the engine.
+[Upgrade]
+[Adaptive Build] Excluded from VRExpansionPlugin unity file: CharacterMovementCompTypes.cpp, GripMotionControllerComponent.cpp, ParentRelativeAttachmentComponent.cpp, ReplicatedVRCameraComponent.cpp, VRAIController.cpp, VRBaseCharacter.cpp, VRBaseCharacterMovementComponent.cpp, VRBPDatatypes.cpp, VRCharacter.cpp, VRCharacterMovementComponent.cpp, VRExpansionFunctionLibrary.cpp, VRExpansionPlugin.cpp, VRGestureComponent.cpp, VRGlobalSettings.cpp, VRGripInterface.cpp, VRPathFollowingComponent.cpp, VRPlayerController.cpp, VRRootComponent.cpp, VRStereoWidgetComponent.cpp, VRTrackedParentInterface.cpp, GrippableActor.cpp, GrippableBoxComponent.cpp, GrippableCapsuleComponent.cpp, GrippableCharacter.cpp, GrippableDataTypes.cpp, GrippablePhysicsReplication.cpp, GrippableSkeletalMeshActor.cpp, GrippableSkeletalMeshComponent.cpp, GrippableSphereComponent.cpp, GrippableStaticMeshActor.cpp, GrippableStaticMeshComponent.cpp, HandSocketComponent.cpp, GS_Default.cpp, GS_GunTools.cpp, GS_InteractibleSettings.cpp, GS_LerpToHand.cpp, GS_Melee.cpp, GS_Physics.cpp, VRGripScriptBase.cpp, VRButtonComponent.cpp, VRDialComponent.cpp, VRInteractibleFunctionLibrary.cpp, VRLeverComponent.cpp, VRMountComponent.cpp, VRSliderComponent.cpp, BucketUpdateSubsystem.cpp, CollisionIgnoreSubsystem.cpp, OptionalRepSkeletalMeshActor.cpp, VRAIPerceptionOverrides.cpp, VREPhysicalAnimationComponent.cpp, VRFullScreenUserWidget.cpp, VRGameViewportClient.cpp, VRLogComponent.cpp, VRPlayerStart.cpp, VRRenderTargetManager.cpp, VRMoverComponent.cpp, FBPAdvGripPhysicsSettingsNetSerializer.cpp, FBPSecondaryGripInfoNetSerializer.cpp, FBPVRComponentPosRepNetSerializer.cpp, FRepMovementVRNetSerializer.cpp, FTransformNetQuantizeNetSerializer.cpp, FBPAdvGripPhysicsSettingsNetSerializer.gen.cpp, FBPSecondaryGripInfoNetSerializer.gen.cpp, FBPVRComponentPosRepNetSerializer.gen.cpp, FRepMovementVRNetSerializer.gen.cpp, FTransformNetQuantizeNetSerializer.gen.cpp, VREPhysicsConstraintComponent.gen.cpp, VRExpansionPlugin.init.gen.cpp, VRVehiclePawn.gen.cpp, VRWheeledVehicle.gen.cpp
+[Adaptive Build] Excluded from VRExpansionEditor unity file: HandSocketComponentDetails.cpp, HandSocketVisualizer.cpp, VRExpansionEditor.cpp, VRGlobalSettingsDetails.cpp
+Determining max actions to execute in parallel (24 physical cores, 24 logical cores)
+  Executing up to 24 processes, one per physical core
+  Requested 1.5 GB memory per action, 12.58 GB available: limiting max parallel actions to 8
+Using Parallel executor to run 88 action(s)
+------ Building 88 action(s) started ------
+[1/88] Resource Default.rc2
+[2/88] Resource Default.rc2
+[3/88] Resource Default.rc2
+[4/88] Compile [x64] SharedPCH.UnrealEd.Project.ValApi.Cpp20.InclOrderOldest.cpp
+[5/88] Compile [x64] SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp
+[6/88] Compile [x64] Btn.cpp
+[7/88] Compile [x64] PhilosopherVR_544.cpp
+[8/88] Compile [x64] CharacterMovementCompTypes.cpp
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\ReplicatedVRCameraComponent.h(104): error C3668: ??UReplicatedVRCameraComponent::HandleXRCamera??: ????˵???verride???ķ???û??д??λ?෽??
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\ReplicatedVRCameraComponent.h(104): warning C4263: ??void UReplicatedVRCameraComponent::HandleXRCamera(float)??: ?????????д??λ????Ա???
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\ReplicatedVRCameraComponent.h(172): warning C4264: ??void UCameraComponent::HandleXRCamera(void)??: ???д??CameraComponent???????Ա?????????????
+C:\Program Files\Epic Games\UE_5.4\Engine\Source\Runtime\Engine\Classes\Camera\CameraComponent.h(175): note: ?μ?CameraComponent::HandleXRCamera??????
+C:\Program Files\Epic Games\UE_5.4\Engine\Source\Runtime\Engine\Classes\Camera\CameraComponent.h(21): note: ?μ?CameraComponent??????
+[9/88] Compile [x64] FBPAdvGripPhysicsSettingsNetSerializer.cpp
+[10/88] Compile [x64] BucketUpdateSubsystem.cpp
+[11/88] Compile [x64] VRExpansionEditor.cpp
+[12/88] Compile [x64] HandSocketVisualizer.cpp
+[13/88] Compile [x64] FBPSecondaryGripInfoNetSerializer.cpp
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\Serializers\FBPSecondaryGripInfoNetSerializer.cpp(19): error C4430: ȱ???˵???- ?ٶ?Ϊ int??ע?: C++ ??֧???? int
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\Serializers\FBPSecondaryGripInfoNetSerializer.cpp(19): error C3646: ??ObjectPtrNetSerializerConfig??: δ֪?д˵???
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\Serializers\FBPSecondaryGripInfoNetSerializer.cpp(19): error C2789: ??UE::Net::FBPSecondaryGripInfoNetSerializer::FObjectPtrNetSerializerConfig??: ???ʼ???????????Ķ??
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\Serializers\FBPSecondaryGripInfoNetSerializer.cpp(19): note: ?μ?E::Net::FBPSecondaryGripInfoNetSerializer::FObjectPtrNetSerializerConfig??????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\Serializers\FBPSecondaryGripInfoNetSerializer.cpp(25): error C2065: ??ObjectPtrNetSerializerConfig??: δ???ı????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\Serializers\FBPSecondaryGripInfoNetSerializer.cpp(58): error C3646: ??SecondaryAttachment??: δ֪?д˵???
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\Serializers\FBPSecondaryGripInfoNetSerializer.cpp(58): error C4430: ȱ???˵???- ?ٶ?Ϊ int??ע?: C++ ??֧???? int
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\Serializers\FBPSecondaryGripInfoNetSerializer.cpp(63): error C3861: ??GetNameNetSerializerSafeQuantizedSize??: ??????????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\Serializers\FBPSecondaryGripInfoNetSerializer.cpp(41): error C2653: ??FObjectPtrNetSerializerNetSerializerInfo??: ???????????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\Serializers\FBPSecondaryGripInfoNetSerializer.cpp(41): error C2065: ??Serializer??: δ???ı????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\Serializers\FBPSecondaryGripInfoNetSerializer.cpp(104): error C2039: "SecondaryAttachment": ??? "UE::Net::FBPSecondaryGripInfoNetSerializer::FQuantizedData" ?ĳ??
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\Serializers\FBPSecondaryGripInfoNetSerializer.cpp(55): note: ?μ?E::Net::FBPSecondaryGripInfoNetSerializer::FQuantizedData??????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\Serializers\FBPSecondaryGripInfoNetSerializer.cpp(154): error C2039: "SecondaryAttachment": ??? "UE::Net::FBPSecondaryGripInfoNetSerializer::FQuantizedData" ?ĳ??
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\Serializers\FBPSecondaryGripInfoNetSerializer.cpp(55): note: ?μ?E::Net::FBPSecondaryGripInfoNetSerializer::FQuantizedData??????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\Serializers\FBPSecondaryGripInfoNetSerializer.cpp(205): error C2039: "SecondaryAttachment": ??? "UE::Net::FBPSecondaryGripInfoNetSerializer::FQuantizedData" ?ĳ??
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\Serializers\FBPSecondaryGripInfoNetSerializer.cpp(55): note: ?μ?E::Net::FBPSecondaryGripInfoNetSerializer::FQuantizedData??????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\Serializers\FBPSecondaryGripInfoNetSerializer.cpp(253): error C2039: "SecondaryAttachment": ??? "UE::Net::FBPSecondaryGripInfoNetSerializer::FQuantizedData" ?ĳ??
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\Serializers\FBPSecondaryGripInfoNetSerializer.cpp(55): note: ?μ?E::Net::FBPSecondaryGripInfoNetSerializer::FQuantizedData??????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\Serializers\FBPSecondaryGripInfoNetSerializer.cpp(335): error C2039: "SecondaryAttachment": ??? "UE::Net::FBPSecondaryGripInfoNetSerializer::FQuantizedData" ?ĳ??
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\Serializers\FBPSecondaryGripInfoNetSerializer.cpp(55): note: ?μ?E::Net::FBPSecondaryGripInfoNetSerializer::FQuantizedData??????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\Serializers\FBPSecondaryGripInfoNetSerializer.cpp(336): error C2039: "SecondaryAttachment": ??? "UE::Net::FBPSecondaryGripInfoNetSerializer::FQuantizedData" ?ĳ??
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\Serializers\FBPSecondaryGripInfoNetSerializer.cpp(55): note: ?μ?E::Net::FBPSecondaryGripInfoNetSerializer::FQuantizedData??????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\Serializers\FBPSecondaryGripInfoNetSerializer.cpp(358): error C2039: "SecondaryAttachment": ??? "UE::Net::FBPSecondaryGripInfoNetSerializer::FQuantizedData" ?ĳ??
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\Serializers\FBPSecondaryGripInfoNetSerializer.cpp(55): note: ?μ?E::Net::FBPSecondaryGripInfoNetSerializer::FQuantizedData??????
+[14/88] Compile [x64] FBPAdvGripPhysicsSettingsNetSerializer.gen.cpp
+[15/88] Compile [x64] VRGlobalSettingsDetails.cpp
+[16/88] Compile [x64] FBPSecondaryGripInfoNetSerializer.gen.cpp
+[17/88] Compile [x64] FBPVRComponentPosRepNetSerializer.gen.cpp
+[18/88] Compile [x64] FRepMovementVRNetSerializer.gen.cpp
+[19/88] Compile [x64] FBPVRComponentPosRepNetSerializer.cpp
+[20/88] Compile [x64] FRepMovementVRNetSerializer.cpp
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\ReplicatedVRCameraComponent.h(104): error C3668: ??UReplicatedVRCameraComponent::HandleXRCamera??: ????˵???verride???ķ???û??д??λ?෽??
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\ReplicatedVRCameraComponent.h(104): warning C4263: ??void UReplicatedVRCameraComponent::HandleXRCamera(float)??: ?????????д??λ????Ա???
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\ReplicatedVRCameraComponent.h(172): warning C4264: ??void UCameraComponent::HandleXRCamera(void)??: ???д??CameraComponent???????Ա?????????????
+C:\Program Files\Epic Games\UE_5.4\Engine\Source\Runtime\Engine\Classes\Camera\CameraComponent.h(175): note: ?μ?CameraComponent::HandleXRCamera??????
+C:\Program Files\Epic Games\UE_5.4\Engine\Source\Runtime\Engine\Classes\Camera\CameraComponent.h(21): note: ?μ?CameraComponent??????
+[21/88] Compile [x64] CollisionIgnoreSubsystem.cpp
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\Misc\CollisionIgnoreSubsystem.cpp(13): fatal error C1083: ????򿪰????? ??PhysicsEngine/SkeletalBodySetup.h??: No such file or directory
+[22/88] Compile [x64] FTransformNetQuantizeNetSerializer.cpp
+[23/88] Compile [x64] FTransformNetQuantizeNetSerializer.gen.cpp
+[24/88] Compile [x64] HandSocketComponentDetails.cpp
+[25/88] Compile [x64] GS_GunTools.cpp
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\ReplicatedVRCameraComponent.h(104): error C3668: ??UReplicatedVRCameraComponent::HandleXRCamera??: ????˵???verride???ķ???û??д??λ?෽??
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\ReplicatedVRCameraComponent.h(104): warning C4263: ??void UReplicatedVRCameraComponent::HandleXRCamera(float)??: ?????????д??λ????Ա???
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\ReplicatedVRCameraComponent.h(172): warning C4264: ??void UCameraComponent::HandleXRCamera(void)??: ???д??CameraComponent???????Ա?????????????
+C:\Program Files\Epic Games\UE_5.4\Engine\Source\Runtime\Engine\Classes\Camera\CameraComponent.h(175): note: ?μ?CameraComponent::HandleXRCamera??????
+C:\Program Files\Epic Games\UE_5.4\Engine\Source\Runtime\Engine\Classes\Camera\CameraComponent.h(21): note: ?μ?CameraComponent??????
+[26/88] Compile [x64] GS_Physics.cpp
+[27/88] Compile [x64] GS_InteractibleSettings.cpp
+[28/88] Compile [x64] GrippableActor.cpp
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\Grippables\GrippablePhysicsReplication.h(38): error C2504: ??IPhysicsReplicationAsync??: δ??????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\Grippables\GrippablePhysicsReplication.h(60): error C4430: ȱ???˵???- ?ٶ?Ϊ int??ע?: C++ ??֧???? int
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\Grippables\GrippablePhysicsReplication.h(60): error C2146: ?????? ȱ???>??(??????NetworkPhysicsSettingsData??????)
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\Grippables\GrippablePhysicsReplication.h(65): error C3646: ??SettingsCurrent??: δ֪?д˵???
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\Grippables\GrippablePhysicsReplication.h(65): error C4430: ȱ???˵???- ?ٶ?Ϊ int??ע?: C++ ??֧???? int
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\Grippables\GrippablePhysicsReplication.h(66): error C3646: ??SettingsDefault??: δ֪?д˵???
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\Grippables\GrippablePhysicsReplication.h(66): error C4430: ȱ???˵???- ?ٶ?Ϊ int??ע?: C++ ??֧???? int
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\Grippables\GrippablePhysicsReplication.h(68): error C4430: ȱ???˵???- ?ٶ?Ϊ int??ע?: C++ ??֧???? int
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\Grippables\GrippablePhysicsReplication.h(68): error C2146: ?????? ȱ???>??(??????NetworkPhysicsSettingsData??????)
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\Grippables\GrippablePhysicsReplication.h(60): error C3668: ??FPhysicsReplicationAsyncVR::RegisterSettings??: ????˵???verride???ķ???û??д??λ?෽??
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\Grippables\GrippableActor.cpp(57): error C3861: ??SetMinNetUpdateFrequency??: ??????????
+[29/88] Compile [x64] GS_LerpToHand.cpp
+[30/88] Compile [x64] GrippablePhysicsReplication.cpp
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\Grippables\GrippablePhysicsReplication.h(38): error C2504: ??IPhysicsReplicationAsync??: δ??????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\Grippables\GrippablePhysicsReplication.h(60): error C4430: ȱ???˵???- ?ٶ?Ϊ int??ע?: C++ ??֧???? int
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\Grippables\GrippablePhysicsReplication.h(60): error C2146: ?????? ȱ???>??(??????NetworkPhysicsSettingsData??????)
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\Grippables\GrippablePhysicsReplication.h(65): error C3646: ??SettingsCurrent??: δ֪?д˵???
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\Grippables\GrippablePhysicsReplication.h(65): error C4430: ȱ???˵???- ?ٶ?Ϊ int??ע?: C++ ??֧???? int
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\Grippables\GrippablePhysicsReplication.h(66): error C3646: ??SettingsDefault??: δ֪?д˵???
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\Grippables\GrippablePhysicsReplication.h(66): error C4430: ȱ???˵???- ?ٶ?Ϊ int??ע?: C++ ??֧???? int
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\Grippables\GrippablePhysicsReplication.h(68): error C4430: ȱ???˵???- ?ٶ?Ϊ int??ע?: C++ ??֧???? int
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\Grippables\GrippablePhysicsReplication.h(68): error C2146: ?????? ȱ???>??(??????NetworkPhysicsSettingsData??????)
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\Grippables\GrippablePhysicsReplication.h(60): error C3668: ??FPhysicsReplicationAsyncVR::RegisterSettings??: ????˵???verride???ķ???û??д??λ?෽??
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\Grippables\GrippablePhysicsReplication.cpp(13): fatal error C1083: ????򿪰????? ??PhysicsReplicationLOD.h??: No such file or directory
+[31/88] Compile [x64] GrippableDataTypes.cpp
+[32/88] Compile [x64] GrippableBoxComponent.cpp
+[33/88] Compile [x64] GS_Default.cpp
+[34/88] Compile [x64] GrippableCharacter.cpp
+[35/88] Compile [x64] GrippableCapsuleComponent.cpp
+[36/88] Compile [x64] GrippableStaticMeshActor.cpp
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\Grippables\GrippablePhysicsReplication.h(38): error C2504: ??IPhysicsReplicationAsync??: δ??????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\Grippables\GrippablePhysicsReplication.h(60): error C4430: ȱ???˵???- ?ٶ?Ϊ int??ע?: C++ ??֧???? int
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\Grippables\GrippablePhysicsReplication.h(60): error C2146: ?????? ȱ???>??(??????NetworkPhysicsSettingsData??????)
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\Grippables\GrippablePhysicsReplication.h(65): error C3646: ??SettingsCurrent??: δ֪?д˵???
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\Grippables\GrippablePhysicsReplication.h(65): error C4430: ȱ???˵???- ?ٶ?Ϊ int??ע?: C++ ??֧???? int
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\Grippables\GrippablePhysicsReplication.h(66): error C3646: ??SettingsDefault??: δ֪?д˵???
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\Grippables\GrippablePhysicsReplication.h(66): error C4430: ȱ???˵???- ?ٶ?Ϊ int??ע?: C++ ??֧???? int
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\Grippables\GrippablePhysicsReplication.h(68): error C4430: ȱ???˵???- ?ٶ?Ϊ int??ע?: C++ ??֧???? int
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\Grippables\GrippablePhysicsReplication.h(68): error C2146: ?????? ȱ???>??(??????NetworkPhysicsSettingsData??????)
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\Grippables\GrippablePhysicsReplication.h(60): error C3668: ??FPhysicsReplicationAsyncVR::RegisterSettings??: ????˵???verride???ķ???û??д??λ?෽??
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\Grippables\GrippableStaticMeshActor.cpp(106): error C3861: ??SetMinNetUpdateFrequency??: ??????????
+[37/88] Compile [x64] GrippableSkeletalMeshComponent.cpp
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\Grippables\GrippableSkeletalMeshComponent.cpp(10): fatal error C1083: ????򿪰????? ??PhysicsEngine/SkeletalBodySetup.h??: No such file or directory
+[38/88] Compile [x64] HandSocketComponent.cpp
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\Grippables\HandSocketComponent.cpp(210): error C2039: "GetCompressedData": ??? "UAnimSequence" ?ĳ??
+C:\Program Files\Epic Games\UE_5.4\Engine\Source\Runtime\Engine\Classes\Engine\SkinnedAssetCommon.h(21): note: ?μ?AnimSequence??????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\Grippables\HandSocketComponent.cpp(210): error C2530: ??TrackMap??: ???ʼ????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\Grippables\HandSocketComponent.cpp(243): error C2665: ??UAnimSequence::GetBoneTransform??: û???????????????????
+C:\Program Files\Epic Games\UE_5.4\Engine\Source\Runtime\Engine\Classes\Animation\AnimSequence.h(557): note: ???ǡ?void UAnimSequence::GetBoneTransform(FTransform &,FSkeletonPoseBoneIndex,FAnimSequenceDecompressionContext &,bool) const??
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\Grippables\HandSocketComponent.cpp(243): note: ??void UAnimSequence::GetBoneTransform(FTransform &,FSkeletonPoseBoneIndex,FAnimSequenceDecompressionContext &,bool) const??: ????????3 ?ӡ?FAnimExtractContext??ת??Ϊ??FAnimSequenceDecompressionContext &??
+C:\Program Files\Epic Games\UE_5.4\Engine\Source\Runtime\Engine\Classes\Animation\AnimSequence.h(547): note: ??   ??void UAnimSequence::GetBoneTransform(FTransform &,FSkeletonPoseBoneIndex,double,bool) const??
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\Grippables\HandSocketComponent.cpp(243): note: ??void UAnimSequence::GetBoneTransform(FTransform &,FSkeletonPoseBoneIndex,double,bool) const??: ????????3 ?ӡ?FAnimExtractContext??ת??Ϊ??double??
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\Grippables\HandSocketComponent.cpp(243): note: û??????????????û???????????????????ø???
+C:\Program Files\Epic Games\UE_5.4\Engine\Source\Runtime\Engine\Classes\Animation\AnimSequence.h(546): note: ??   ??void UAnimSequence::GetBoneTransform(FTransform &,int32,float,bool) const??
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\Grippables\HandSocketComponent.cpp(243): note: ??void UAnimSequence::GetBoneTransform(FTransform &,int32,float,bool) const??: ????????2 ?ӡ?FSkeletonPoseBoneIndex??ת??Ϊ??int32??
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\Grippables\HandSocketComponent.cpp(243): note: û??????????????û???????????????????ø???
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\Grippables\HandSocketComponent.cpp(243): note: ???ƥ????б?(FTransform, FSkeletonPoseBoneIndex, FAnimExtractContext, bool)??ʱ
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\Grippables\HandSocketComponent.cpp(322): error C2039: "GetCompressedData": ??? "UAnimSequence" ?ĳ??
+C:\Program Files\Epic Games\UE_5.4\Engine\Source\Runtime\Engine\Classes\Engine\SkinnedAssetCommon.h(21): note: ?μ?AnimSequence??????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\Grippables\HandSocketComponent.cpp(322): error C2530: ??TrackMap??: ???ʼ????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\Grippables\HandSocketComponent.cpp(352): error C2665: ??UAnimSequence::GetBoneTransform??: û???????????????????
+C:\Program Files\Epic Games\UE_5.4\Engine\Source\Runtime\Engine\Classes\Animation\AnimSequence.h(557): note: ???ǡ?void UAnimSequence::GetBoneTransform(FTransform &,FSkeletonPoseBoneIndex,FAnimSequenceDecompressionContext &,bool) const??
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\Grippables\HandSocketComponent.cpp(352): note: ??void UAnimSequence::GetBoneTransform(FTransform &,FSkeletonPoseBoneIndex,FAnimSequenceDecompressionContext &,bool) const??: ????????3 ?ӡ?FAnimExtractContext??ת??Ϊ??FAnimSequenceDecompressionContext &??
+C:\Program Files\Epic Games\UE_5.4\Engine\Source\Runtime\Engine\Classes\Animation\AnimSequence.h(547): note: ??   ??void UAnimSequence::GetBoneTransform(FTransform &,FSkeletonPoseBoneIndex,double,bool) const??
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\Grippables\HandSocketComponent.cpp(352): note: ??void UAnimSequence::GetBoneTransform(FTransform &,FSkeletonPoseBoneIndex,double,bool) const??: ????????3 ?ӡ?FAnimExtractContext??ת??Ϊ??double??
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\Grippables\HandSocketComponent.cpp(352): note: û??????????????û???????????????????ø???
+C:\Program Files\Epic Games\UE_5.4\Engine\Source\Runtime\Engine\Classes\Animation\AnimSequence.h(546): note: ??   ??void UAnimSequence::GetBoneTransform(FTransform &,int32,float,bool) const??
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\Grippables\HandSocketComponent.cpp(352): note: ??void UAnimSequence::GetBoneTransform(FTransform &,int32,float,bool) const??: ????????2 ?ӡ?FSkeletonPoseBoneIndex??ת??Ϊ??int32??
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\Grippables\HandSocketComponent.cpp(352): note: û??????????????û???????????????????ø???
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\Grippables\HandSocketComponent.cpp(352): note: ???ƥ????б?(FTransform, FSkeletonPoseBoneIndex, FAnimExtractContext, bool)??ʱ
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\Grippables\HandSocketComponent.cpp(615): error C2039: "GetCompressedData": ??? "UAnimSequence" ?ĳ??
+C:\Program Files\Epic Games\UE_5.4\Engine\Source\Runtime\Engine\Classes\Engine\SkinnedAssetCommon.h(21): note: ?μ?AnimSequence??????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\Grippables\HandSocketComponent.cpp(615): error C2530: ??TrackMap??: ???ʼ????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\Grippables\HandSocketComponent.cpp(643): error C2665: ??UAnimSequence::GetBoneTransform??: û???????????????????
+C:\Program Files\Epic Games\UE_5.4\Engine\Source\Runtime\Engine\Classes\Animation\AnimSequence.h(557): note: ???ǡ?void UAnimSequence::GetBoneTransform(FTransform &,FSkeletonPoseBoneIndex,FAnimSequenceDecompressionContext &,bool) const??
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\Grippables\HandSocketComponent.cpp(643): note: ??void UAnimSequence::GetBoneTransform(FTransform &,FSkeletonPoseBoneIndex,FAnimSequenceDecompressionContext &,bool) const??: ????????3 ?ӡ?FAnimExtractContext??ת??Ϊ??FAnimSequenceDecompressionContext &??
+C:\Program Files\Epic Games\UE_5.4\Engine\Source\Runtime\Engine\Classes\Animation\AnimSequence.h(547): note: ??   ??void UAnimSequence::GetBoneTransform(FTransform &,FSkeletonPoseBoneIndex,double,bool) const??
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\Grippables\HandSocketComponent.cpp(643): note: ??void UAnimSequence::GetBoneTransform(FTransform &,FSkeletonPoseBoneIndex,double,bool) const??: ????????3 ?ӡ?FAnimExtractContext??ת??Ϊ??double??
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\Grippables\HandSocketComponent.cpp(643): note: û??????????????û???????????????????ø???
+C:\Program Files\Epic Games\UE_5.4\Engine\Source\Runtime\Engine\Classes\Animation\AnimSequence.h(546): note: ??   ??void UAnimSequence::GetBoneTransform(FTransform &,int32,float,bool) const??
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\Grippables\HandSocketComponent.cpp(643): note: ??void UAnimSequence::GetBoneTransform(FTransform &,int32,float,bool) const??: ????????2 ?ӡ?FSkeletonPoseBoneIndex??ת??Ϊ??int32??
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\Grippables\HandSocketComponent.cpp(643): note: û??????????????û???????????????????ø???
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\Grippables\HandSocketComponent.cpp(643): note: ???ƥ????б?(FTransform, FSkeletonPoseBoneIndex, FAnimExtractContext, bool)??ʱ
+[39/88] Compile [x64] GS_Melee.cpp
+[40/88] Compile [x64] GripMotionControllerComponent.cpp
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\ReplicatedVRCameraComponent.h(104): error C3668: ??UReplicatedVRCameraComponent::HandleXRCamera??: ????˵???verride???ķ???û??д??λ?෽??
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\ReplicatedVRCameraComponent.h(104): warning C4263: ??void UReplicatedVRCameraComponent::HandleXRCamera(float)??: ?????????д??λ????Ա???
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\ReplicatedVRCameraComponent.h(172): warning C4264: ??void UCameraComponent::HandleXRCamera(void)??: ???д??CameraComponent???????Ա?????????????
+C:\Program Files\Epic Games\UE_5.4\Engine\Source\Runtime\Engine\Classes\Camera\CameraComponent.h(175): note: ?μ?CameraComponent::HandleXRCamera??????
+C:\Program Files\Epic Games\UE_5.4\Engine\Source\Runtime\Engine\Classes\Camera\CameraComponent.h(21): note: ?μ?CameraComponent??????
+[41/88] Compile [x64] GrippableSphereComponent.cpp
+[42/88] Compile [x64] GrippableSkeletalMeshActor.cpp
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\Grippables\GrippablePhysicsReplication.h(38): error C2504: ??IPhysicsReplicationAsync??: δ??????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\Grippables\GrippablePhysicsReplication.h(60): error C4430: ȱ???˵???- ?ٶ?Ϊ int??ע?: C++ ??֧???? int
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\Grippables\GrippablePhysicsReplication.h(60): error C2146: ?????? ȱ???>??(??????NetworkPhysicsSettingsData??????)
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\Grippables\GrippablePhysicsReplication.h(65): error C3646: ??SettingsCurrent??: δ֪?д˵???
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\Grippables\GrippablePhysicsReplication.h(65): error C4430: ȱ???˵???- ?ٶ?Ϊ int??ע?: C++ ??֧???? int
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\Grippables\GrippablePhysicsReplication.h(66): error C3646: ??SettingsDefault??: δ֪?д˵???
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\Grippables\GrippablePhysicsReplication.h(66): error C4430: ȱ???˵???- ?ٶ?Ϊ int??ע?: C++ ??֧???? int
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\Grippables\GrippablePhysicsReplication.h(68): error C4430: ȱ???˵???- ?ٶ?Ϊ int??ע?: C++ ??֧???? int
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\Grippables\GrippablePhysicsReplication.h(68): error C2146: ?????? ȱ???>??(??????NetworkPhysicsSettingsData??????)
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\Grippables\GrippablePhysicsReplication.h(60): error C3668: ??FPhysicsReplicationAsyncVR::RegisterSettings??: ????˵???verride???ķ???û??д??λ?෽??
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\Grippables\GrippableSkeletalMeshActor.cpp(17): fatal error C1083: ????򿪰????? ??PhysicsEngine/SkeletalBodySetup.h??: No such file or directory
+[43/88] Compile [x64] GrippableStaticMeshComponent.cpp
+[44/88] Compile [x64] ParentRelativeAttachmentComponent.cpp
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\ReplicatedVRCameraComponent.h(104): error C3668: ??UReplicatedVRCameraComponent::HandleXRCamera??: ????˵???verride???ķ???û??д??λ?෽??
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\ReplicatedVRCameraComponent.h(104): warning C4263: ??void UReplicatedVRCameraComponent::HandleXRCamera(float)??: ?????????д??λ????Ա???
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\ReplicatedVRCameraComponent.h(172): warning C4264: ??void UCameraComponent::HandleXRCamera(void)??: ???д??CameraComponent???????Ա?????????????
+C:\Program Files\Epic Games\UE_5.4\Engine\Source\Runtime\Engine\Classes\Camera\CameraComponent.h(175): note: ?μ?CameraComponent::HandleXRCamera??????
+C:\Program Files\Epic Games\UE_5.4\Engine\Source\Runtime\Engine\Classes\Camera\CameraComponent.h(21): note: ?μ?CameraComponent??????
+[45/88] Compile [x64] ReplicatedVRCameraComponent.cpp
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\ReplicatedVRCameraComponent.h(104): error C3668: ??UReplicatedVRCameraComponent::HandleXRCamera??: ????˵???verride???ķ???û??д??λ?෽??
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\ReplicatedVRCameraComponent.h(104): warning C4263: ??void UReplicatedVRCameraComponent::HandleXRCamera(float)??: ?????????д??λ????Ա???
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\ReplicatedVRCameraComponent.h(172): warning C4264: ??void UCameraComponent::HandleXRCamera(void)??: ???д??CameraComponent???????Ա?????????????
+C:\Program Files\Epic Games\UE_5.4\Engine\Source\Runtime\Engine\Classes\Camera\CameraComponent.h(175): note: ?μ?CameraComponent::HandleXRCamera??????
+C:\Program Files\Epic Games\UE_5.4\Engine\Source\Runtime\Engine\Classes\Camera\CameraComponent.h(21): note: ?μ?CameraComponent??????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\ReplicatedVRCameraComponent.cpp(465): error C2660: ??IXRCamera::UpdatePlayerCamera??: ????????3 ???
+C:\Program Files\Epic Games\UE_5.4\Engine\Source\Runtime\HeadMountedDisplay\Public\IXRCamera.h(46): note: ?μ?XRCamera::UpdatePlayerCamera??????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\ReplicatedVRCameraComponent.cpp(465): note: ???ƥ????б?(FQuat, FVector, float)??ʱ
+[46/88] Compile [x64] VRAIController.cpp
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\ReplicatedVRCameraComponent.h(104): error C3668: ??UReplicatedVRCameraComponent::HandleXRCamera??: ????˵???verride???ķ???û??д??λ?෽??
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\ReplicatedVRCameraComponent.h(104): warning C4263: ??void UReplicatedVRCameraComponent::HandleXRCamera(float)??: ?????????д??λ????Ա???
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\ReplicatedVRCameraComponent.h(172): warning C4264: ??void UCameraComponent::HandleXRCamera(void)??: ???д??CameraComponent???????Ա?????????????
+C:\Program Files\Epic Games\UE_5.4\Engine\Source\Runtime\Engine\Classes\Camera\CameraComponent.h(175): note: ?μ?CameraComponent::HandleXRCamera??????
+C:\Program Files\Epic Games\UE_5.4\Engine\Source\Runtime\Engine\Classes\Camera\CameraComponent.h(21): note: ?μ?CameraComponent??????
+[47/88] Compile [x64] VRAIPerceptionOverrides.cpp
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\ReplicatedVRCameraComponent.h(104): error C3668: ??UReplicatedVRCameraComponent::HandleXRCamera??: ????˵???verride???ķ???û??д??λ?෽??
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\ReplicatedVRCameraComponent.h(104): warning C4263: ??void UReplicatedVRCameraComponent::HandleXRCamera(float)??: ?????????д??λ????Ա???
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\ReplicatedVRCameraComponent.h(172): warning C4264: ??void UCameraComponent::HandleXRCamera(void)??: ???д??CameraComponent???????Ա?????????????
+C:\Program Files\Epic Games\UE_5.4\Engine\Source\Runtime\Engine\Classes\Camera\CameraComponent.h(175): note: ?μ?CameraComponent::HandleXRCamera??????
+C:\Program Files\Epic Games\UE_5.4\Engine\Source\Runtime\Engine\Classes\Camera\CameraComponent.h(21): note: ?μ?CameraComponent??????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\Misc\VRAIPerceptionOverrides.h(336): error C2061: ?????? ?????ueriesListAccessDetector??
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\Misc\VRAIPerceptionOverrides.h(336): error C4430: ȱ???˵???- ?ٶ?Ϊ int??ע?: C++ ??֧???? int
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\Misc\VRAIPerceptionOverrides.h(336): error C4183: ??UE_MT_DECLARE_TS_RW_ACCESS_DETECTOR??: ȱ??????ͣ??ٶ?Ϊ???ء?int???ĳ?????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\Misc\VRAIPerceptionOverrides.cpp(313): error C2065: ??QueriesListAccessDetector??: δ???ı????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\Misc\VRAIPerceptionOverrides.cpp(313): error C2530: ??ScopedMTAccessDetector_313??: ???ʼ????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\Misc\VRAIPerceptionOverrides.cpp(706): error C2065: ??QueriesListAccessDetector??: δ???ı????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\Misc\VRAIPerceptionOverrides.cpp(706): error C2530: ??ScopedMTAccessDetector_706??: ???ʼ????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\Misc\VRAIPerceptionOverrides.cpp(732): error C2065: ??QueriesListAccessDetector??: δ???ı????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\Misc\VRAIPerceptionOverrides.cpp(732): error C2530: ??ScopedMTAccessDetector_732??: ???ʼ????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\Misc\VRAIPerceptionOverrides.cpp(834): error C2065: ??QueriesListAccessDetector??: δ???ı????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\Misc\VRAIPerceptionOverrides.cpp(834): error C2530: ??ScopedMTAccessDetector_834??: ???ʼ????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\Misc\VRAIPerceptionOverrides.cpp(1118): error C2065: ??QueriesListAccessDetector??: δ???ı????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\Misc\VRAIPerceptionOverrides.cpp(1118): error C2530: ??ScopedMTAccessDetector_1118??: ???ʼ????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\Misc\VRAIPerceptionOverrides.cpp(1151): error C2065: ??QueriesListAccessDetector??: δ???ı????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\Misc\VRAIPerceptionOverrides.cpp(1151): error C2530: ??ScopedMTAccessDetector_1151??: ???ʼ????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\Misc\VRAIPerceptionOverrides.cpp(1213): error C2065: ??QueriesListAccessDetector??: δ???ı????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\Misc\VRAIPerceptionOverrides.cpp(1213): error C2530: ??ScopedMTAccessDetector_1213??: ???ʼ????
+[48/88] Compile [x64] VRBaseCharacterMovementComponent.cpp
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\ReplicatedVRCameraComponent.h(104): error C3668: ??UReplicatedVRCameraComponent::HandleXRCamera??: ????˵???verride???ķ???û??д??λ?෽??
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\ReplicatedVRCameraComponent.h(104): warning C4263: ??void UReplicatedVRCameraComponent::HandleXRCamera(float)??: ?????????д??λ????Ա???
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\ReplicatedVRCameraComponent.h(172): warning C4264: ??void UCameraComponent::HandleXRCamera(void)??: ???д??CameraComponent???????Ա?????????????
+C:\Program Files\Epic Games\UE_5.4\Engine\Source\Runtime\Engine\Classes\Camera\CameraComponent.h(175): note: ?μ?CameraComponent::HandleXRCamera??????
+C:\Program Files\Epic Games\UE_5.4\Engine\Source\Runtime\Engine\Classes\Camera\CameraComponent.h(21): note: ?μ?CameraComponent??????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRBaseCharacterMovementComponent.cpp(596): error C3861: ??GetGravitySpaceZ??: ??????????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRBaseCharacterMovementComponent.cpp(596): error C2737: ??bIsDownward??: ???ʼ?? const ???
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRBaseCharacterMovementComponent.cpp(597): error C3861: ??ProjectToGravityFloor??: ??????????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRBaseCharacterMovementComponent.cpp(597): error C2737: ??bIsVertical??: ???ʼ?? const ???
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRBaseCharacterMovementComponent.cpp(607): error C3861: ??GetGravitySpaceZ??: ??????????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRBaseCharacterMovementComponent.cpp(742): error C3861: ??GetGravitySpaceZ??: ??????????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRBaseCharacterMovementComponent.cpp(750): error C3861: ??ProjectToGravityFloor??: ??????????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRBaseCharacterMovementComponent.cpp(759): error C3861: ??GetGravitySpaceZ??: ??????????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRBaseCharacterMovementComponent.cpp(759): error C2737: ??bFloorOpposedToMovement??: ???ʼ?? const ???
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRBaseCharacterMovementComponent.cpp(766): error C3861: ??ProjectToGravityFloor??: ??????????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRBaseCharacterMovementComponent.cpp(1980): error C2039: "ClearQueuedAnimEvents": ??? "UAnimInstance" ?ĳ??
+C:\Program Files\Epic Games\UE_5.4\Engine\Source\Runtime\Engine\Classes\Engine\SkeletalMesh.h(39): note: ?μ?AnimInstance??????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRBaseCharacterMovementComponent.cpp(1990): error C2039: "ShouldOnlyTickMontagesAndRefreshBones": ??? "USkeletalMeshComponent" ?ĳ??
+C:\Program Files\Epic Games\UE_5.4\Engine\Source\Runtime\Engine\Classes\GameFramework\Character.h(28): note: ?μ?SkeletalMeshComponent??????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRBaseCharacterMovementComponent.cpp(2074): error C3861: ??GetGravitySpaceZ??: ??????????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRBaseCharacterMovementComponent.cpp(2079): error C3861: ??ProjectToGravityFloor??: ??????????
+[49/88] Compile [x64] VRBPDatatypes.cpp
+[50/88] Compile [x64] VRBaseCharacter.cpp
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\ReplicatedVRCameraComponent.h(104): error C3668: ??UReplicatedVRCameraComponent::HandleXRCamera??: ????˵???verride???ķ???û??д??λ?෽??
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\ReplicatedVRCameraComponent.h(104): warning C4263: ??void UReplicatedVRCameraComponent::HandleXRCamera(float)??: ?????????д??λ????Ա???
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\ReplicatedVRCameraComponent.h(172): warning C4264: ??void UCameraComponent::HandleXRCamera(void)??: ???д??CameraComponent???????Ա?????????????
+C:\Program Files\Epic Games\UE_5.4\Engine\Source\Runtime\Engine\Classes\Camera\CameraComponent.h(175): note: ?μ?CameraComponent::HandleXRCamera??????
+C:\Program Files\Epic Games\UE_5.4\Engine\Source\Runtime\Engine\Classes\Camera\CameraComponent.h(21): note: ?μ?CameraComponent??????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\VRPathFollowingComponent.h(23): error C2061: ?????? ?????NavMovementInterface??
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\VRPathFollowingComponent.h(23): error C3668: ??UVRPathFollowingComponent::SetNavMovementInterface??: ????˵???verride???ķ???û??д??λ?෽??
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRBaseCharacter.cpp(156): error C3861: ??SetMinNetUpdateFrequency??: ??????????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRBaseCharacter.cpp(450): error C2039: "bRepAcceleration": ??? "FRepMovement" ?ĳ??
+C:\Program Files\Epic Games\UE_5.4\Engine\Source\Runtime\Engine\Classes\Engine\ReplicatedState.h(118): note: ?μ?RepMovement??????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRBaseCharacter.cpp(450): error C2039: "bRepAcceleration": ??? "FRepMovementVRCharacter" ?ĳ??
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\VRBaseCharacter.h(31): note: ?μ?RepMovementVRCharacter??????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRBaseCharacter.cpp(451): error C2039: "Acceleration": ??? "FRepMovement" ?ĳ??
+C:\Program Files\Epic Games\UE_5.4\Engine\Source\Runtime\Engine\Classes\Engine\ReplicatedState.h(118): note: ?μ?RepMovement??????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRBaseCharacter.cpp(451): error C2039: "Acceleration": ??? "FRepMovementVRCharacter" ?ĳ??
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\VRBaseCharacter.h(31): note: ?μ?RepMovementVRCharacter??????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRBaseCharacter.cpp(490): error C2039: "bRepAcceleration": ??? "FRepMovementVRCharacter" ?ĳ??
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\VRBaseCharacter.h(31): note: ?μ?RepMovementVRCharacter??????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRBaseCharacter.cpp(490): error C2039: "bRepAcceleration": ??? "FRepMovement" ?ĳ??
+C:\Program Files\Epic Games\UE_5.4\Engine\Source\Runtime\Engine\Classes\Engine\ReplicatedState.h(118): note: ?μ?RepMovement??????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRBaseCharacter.cpp(491): error C2039: "Acceleration": ??? "FRepMovementVRCharacter" ?ĳ??
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\VRBaseCharacter.h(31): note: ?μ?RepMovementVRCharacter??????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRBaseCharacter.cpp(491): error C2039: "Acceleration": ??? "FRepMovement" ?ĳ??
+C:\Program Files\Epic Games\UE_5.4\Engine\Source\Runtime\Engine\Classes\Engine\ReplicatedState.h(118): note: ?μ?RepMovement??????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRBaseCharacter.cpp(1350): error C2039: "RepMoveOptionalAcceleration": ??? "FEngineNetworkCustomVersion" ?ĳ??
+C:\Program Files\Epic Games\UE_5.4\Engine\Source\Runtime\Core\Public\Misc\EngineNetworkCustomVersion.h(48): note: ?μ?EngineNetworkCustomVersion??????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRBaseCharacter.cpp(1350): error C2065: ??RepMoveOptionalAcceleration??: δ???ı????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRBaseCharacter.cpp(1352): error C2065: ??bRepAcceleration??: δ???ı????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRBaseCharacter.cpp(1354): error C2065: ??bRepAcceleration??: δ???ı????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRBaseCharacter.cpp(1356): error C2065: ??bRepAcceleration??: δ???ı????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRBaseCharacter.cpp(1359): error C2065: ??Acceleration??: δ???ı????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRBaseCharacter.cpp(1364): error C2065: ??bRepAcceleration??: δ???ı????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRBaseCharacter.cpp(1492): error C4430: ȱ???˵???- ?ٶ?Ϊ int??ע?: C++ ??֧???? int
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRBaseCharacter.cpp(1492): error C3646: ??ObjectPtrNetSerializerConfig??: δ֪?д˵???
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRBaseCharacter.cpp(1492): error C2789: ??UE::Net::FVRSeatedCharacterInfoNetSerializer::FObjectPtrNetSerializerConfig??: ???ʼ???????????Ķ??
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRBaseCharacter.cpp(1492): note: ?μ?E::Net::FVRSeatedCharacterInfoNetSerializer::FObjectPtrNetSerializerConfig??????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRBaseCharacter.cpp(1497): error C2065: ??ObjectPtrNetSerializerConfig??: δ???ı????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRBaseCharacter.cpp(1528): error C3646: ??SeatParent??: δ֪?д˵???
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRBaseCharacter.cpp(1528): error C4430: ȱ???˵???- ?ٶ?Ϊ int??ע?: C++ ??֧???? int
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRBaseCharacter.cpp(1508): error C2653: ??FObjectPtrNetSerializerNetSerializerInfo??: ???????????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRBaseCharacter.cpp(1508): error C2065: ??Serializer??: δ???ı????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRBaseCharacter.cpp(1593): error C2039: "SeatParent": ??? "UE::Net::FVRSeatedCharacterInfoNetSerializer::FQuantizedData" ?ĳ??
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRBaseCharacter.cpp(1522): note: ?μ?E::Net::FVRSeatedCharacterInfoNetSerializer::FQuantizedData??????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRBaseCharacter.cpp(1642): error C2039: "SeatParent": ??? "UE::Net::FVRSeatedCharacterInfoNetSerializer::FQuantizedData" ?ĳ??
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRBaseCharacter.cpp(1522): note: ?μ?E::Net::FVRSeatedCharacterInfoNetSerializer::FQuantizedData??????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRBaseCharacter.cpp(1686): error C2039: "SeatParent": ??? "UE::Net::FVRSeatedCharacterInfoNetSerializer::FQuantizedData" ?ĳ??
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRBaseCharacter.cpp(1522): note: ?μ?E::Net::FVRSeatedCharacterInfoNetSerializer::FQuantizedData??????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRBaseCharacter.cpp(1728): error C2039: "SeatParent": ??? "UE::Net::FVRSeatedCharacterInfoNetSerializer::FQuantizedData" ?ĳ??
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRBaseCharacter.cpp(1522): note: ?μ?E::Net::FVRSeatedCharacterInfoNetSerializer::FQuantizedData??????
+[51/88] Compile [x64] OptionalRepSkeletalMeshActor.cpp
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\Misc\OptionalRepSkeletalMeshActor.cpp(12): fatal error C1083: ????򿪰????? ??PhysicsEngine/SkeletalBodySetup.h??: No such file or directory
+[52/88] Compile [x64] VRCharacter.cpp
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\ReplicatedVRCameraComponent.h(104): error C3668: ??UReplicatedVRCameraComponent::HandleXRCamera??: ????˵???verride???ķ???û??д??λ?෽??
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\ReplicatedVRCameraComponent.h(104): warning C4263: ??void UReplicatedVRCameraComponent::HandleXRCamera(float)??: ?????????д??λ????Ա???
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\ReplicatedVRCameraComponent.h(172): warning C4264: ??void UCameraComponent::HandleXRCamera(void)??: ???д??CameraComponent???????Ա?????????????
+C:\Program Files\Epic Games\UE_5.4\Engine\Source\Runtime\Engine\Classes\Camera\CameraComponent.h(175): note: ?μ?CameraComponent::HandleXRCamera??????
+C:\Program Files\Epic Games\UE_5.4\Engine\Source\Runtime\Engine\Classes\Camera\CameraComponent.h(21): note: ?μ?CameraComponent??????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\VRPathFollowingComponent.h(23): error C2061: ?????? ?????NavMovementInterface??
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\VRPathFollowingComponent.h(23): error C3668: ??UVRPathFollowingComponent::SetNavMovementInterface??: ????˵???verride???ķ???û??д??λ?෽??
+[53/88] Compile [x64] VRExpansionPlugin.init.gen.cpp
+[54/88] Compile [x64] VRButtonComponent.cpp
+[55/88] Compile [x64] VRGameViewportClient.cpp
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\Misc\VRGameViewportClient.h(64): error C3668: ??UVRGameViewportClient::InputAxis??: ????˵???verride???ķ???û??д??λ?෽??
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\Misc\VRGameViewportClient.h(64): warning C4263: ??bool UVRGameViewportClient::InputAxis(const FInputKeyEventArgs &)??: ?????????д??λ????Ա???
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\Misc\VRGameViewportClient.h(65): warning C4264: ??bool UGameViewportClient::InputAxis(FViewport *,FInputDeviceId,FKey,float,float,int32,bool)??: ???д??GameViewportClient???????Ա?????????????
+C:\Program Files\Epic Games\UE_5.4\Engine\Source\Runtime\Engine\Classes\Engine\GameViewportClient.h(176): note: ?μ?GameViewportClient::InputAxis??????
+C:\Program Files\Epic Games\UE_5.4\Engine\Source\Editor\UnrealEd\Classes\Editor\EditorEngine.h(68): note: ?μ?GameViewportClient??????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\Misc\VRGameViewportClient.h(65): warning C4264: ??bool UGameViewportClient::InputAxis(FViewport *,int32,FKey,float,float,int32,bool)??: ???д??GameViewportClient???????Ա?????????????
+C:\Program Files\Epic Games\UE_5.4\Engine\Source\Runtime\Engine\Classes\Engine\GameViewportClient.h(175): note: ?μ?GameViewportClient::InputAxis??????
+C:\Program Files\Epic Games\UE_5.4\Engine\Source\Editor\UnrealEd\Classes\Editor\EditorEngine.h(68): note: ?μ?GameViewportClient??????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\Misc\VRGameViewportClient.cpp(115): error C2661: ??UGameViewportClient::InputAxis??: û?????????1 ???
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\Misc\VRGameViewportClient.cpp(115): note: ???ƥ????б?(const FInputKeyEventArgs)??ʱ
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\Misc\VRGameViewportClient.cpp(128): error C2661: ??UGameViewportClient::InputAxis??: û?????????1 ???
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\Misc\VRGameViewportClient.cpp(128): note: ???ƥ????б?(FInputKeyEventArgs)??ʱ
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\Misc\VRGameViewportClient.cpp(141): error C2661: ??UGameViewportClient::InputAxis??: û?????????1 ???
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\Misc\VRGameViewportClient.cpp(141): note: ???ƥ????б?(FInputKeyEventArgs)??ʱ
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\Misc\VRGameViewportClient.cpp(114): error C4390: ??;??: ????յ?ܿ????????????
+[56/88] Compile [x64] VRExpansionPlugin.cpp
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\Grippables\GrippablePhysicsReplication.h(38): error C2504: ??IPhysicsReplicationAsync??: δ??????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\Grippables\GrippablePhysicsReplication.h(60): error C4430: ȱ???˵???- ?ٶ?Ϊ int??ע?: C++ ??֧???? int
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\Grippables\GrippablePhysicsReplication.h(60): error C2146: ?????? ȱ???>??(??????NetworkPhysicsSettingsData??????)
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\Grippables\GrippablePhysicsReplication.h(65): error C3646: ??SettingsCurrent??: δ֪?д˵???
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\Grippables\GrippablePhysicsReplication.h(65): error C4430: ȱ???˵???- ?ٶ?Ϊ int??ע?: C++ ??֧???? int
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\Grippables\GrippablePhysicsReplication.h(66): error C3646: ??SettingsDefault??: δ֪?д˵???
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\Grippables\GrippablePhysicsReplication.h(66): error C4430: ȱ???˵???- ?ٶ?Ϊ int??ע?: C++ ??֧???? int
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\Grippables\GrippablePhysicsReplication.h(68): error C4430: ȱ???˵???- ?ٶ?Ϊ int??ע?: C++ ??֧???? int
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\Grippables\GrippablePhysicsReplication.h(68): error C2146: ?????? ȱ???>??(??????NetworkPhysicsSettingsData??????)
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\Grippables\GrippablePhysicsReplication.h(60): error C3668: ??FPhysicsReplicationAsyncVR::RegisterSettings??: ????˵???verride???ķ???û??д??λ?෽??
+[57/88] Compile [x64] VRCharacterMovementComponent.cpp
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\ReplicatedVRCameraComponent.h(104): error C3668: ??UReplicatedVRCameraComponent::HandleXRCamera??: ????˵???verride???ķ???û??д??λ?෽??
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\ReplicatedVRCameraComponent.h(104): warning C4263: ??void UReplicatedVRCameraComponent::HandleXRCamera(float)??: ?????????д??λ????Ա???
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\ReplicatedVRCameraComponent.h(172): warning C4264: ??void UCameraComponent::HandleXRCamera(void)??: ???д??CameraComponent???????Ա?????????????
+C:\Program Files\Epic Games\UE_5.4\Engine\Source\Runtime\Engine\Classes\Camera\CameraComponent.h(175): note: ?μ?CameraComponent::HandleXRCamera??????
+C:\Program Files\Epic Games\UE_5.4\Engine\Source\Runtime\Engine\Classes\Camera\CameraComponent.h(21): note: ?μ?CameraComponent??????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRCharacterMovementComponent.cpp(126): error C2039: "SetIsCrouched": ??? "ACharacter" ?ĳ??
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\VRCharacterMovementComponent.h(12): note: ?μ?Character??????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRCharacterMovementComponent.cpp(198): error C2039: "SetIsCrouched": ??? "ACharacter" ?ĳ??
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\VRCharacterMovementComponent.h(12): note: ?μ?Character??????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRCharacterMovementComponent.cpp(243): error C2039: "SetIsCrouched": ??? "ACharacter" ?ĳ??
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\VRCharacterMovementComponent.h(12): note: ?μ?Character??????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRCharacterMovementComponent.cpp(359): error C2039: "SetIsCrouched": ??? "ACharacter" ?ĳ??
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\VRCharacterMovementComponent.h(12): note: ?μ?Character??????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRCharacterMovementComponent.cpp(864): error C3861: ??GetGravitySpaceZ??: ??????????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRCharacterMovementComponent.cpp(922): error C4668: û?????UE_WITH_REMOTE_OBJECT_HANDLE?????ΪԤ?????꣬???0???????#if/#elif??
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRCharacterMovementComponent.cpp(1017): error C3861: ??ProjectToGravityFloor??: ??????????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRCharacterMovementComponent.cpp(1017): error C2737: ??ActualDist??: ???ʼ?? const ???
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRCharacterMovementComponent.cpp(1042): error C2664: ??FVector UCharacterMovementComponent::GetLedgeMove(const FVector &,const FVector &,const FVector &) const??: ????????3 ?ӡ?const FFindFloorResult??ת??Ϊ??const FVector &??
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRCharacterMovementComponent.cpp(1042): note: ԭ???: ????ӡ?const FFindFloorResult??ת??Ϊ??const FVector??
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRCharacterMovementComponent.cpp(1042): note: û??????????????û???????????????????ø???
+C:\Program Files\Epic Games\UE_5.4\Engine\Source\Runtime\Engine\Classes\GameFramework\CharacterMovementComponent.h(1764): note: ?μ?CharacterMovementComponent::GetLedgeMove??????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRCharacterMovementComponent.cpp(1042): note: ???ƥ????б?(const FVector, const FVector, const FFindFloorResult)??ʱ
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRCharacterMovementComponent.cpp(1191): error C3861: ??SetGravitySpaceZ??: ??????????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRCharacterMovementComponent.cpp(1192): error C3861: ??ProjectToGravityFloor??: ??????????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRCharacterMovementComponent.cpp(1209): error C3861: ??ProjectToGravityFloor??: ??????????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRCharacterMovementComponent.cpp(1564): error C3861: ??ProjectToGravityFloor??: ??????????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRCharacterMovementComponent.cpp(1564): error C3861: ??GetGravitySpaceComponentZ??: ??????????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRCharacterMovementComponent.cpp(1563): error C2661: ??UPrimitiveComponent::LineTraceComponent??: û?????????3 ???
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRCharacterMovementComponent.cpp(1563): note: ???ƥ????б?(FHitResult, FVector, FCollisionQueryParams)??ʱ
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRCharacterMovementComponent.cpp(1577): error C3861: ??ProjectToGravityFloor??: ??????????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRCharacterMovementComponent.cpp(1577): error C2737: ??DistanceNow??: ???ʼ?? const ???
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRCharacterMovementComponent.cpp(1578): error C3861: ??ProjectToGravityFloor??: ??????????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRCharacterMovementComponent.cpp(1578): error C2737: ??DistanceLater??: ???ʼ?? const ???
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRCharacterMovementComponent.cpp(1590): error C3861: ??GetGravitySpaceZ??: ??????????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRCharacterMovementComponent.cpp(1590): error C3861: ??SetGravitySpaceZ??: ??????????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRCharacterMovementComponent.cpp(1594): error C3861: ??GetGravitySpaceZ??: ??????????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRCharacterMovementComponent.cpp(1595): error C3861: ??GetGravitySpaceZ??: ??????????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRCharacterMovementComponent.cpp(1595): error C3861: ??SetGravitySpaceZ??: ??????????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRCharacterMovementComponent.cpp(1674): error C3861: ??ProjectToGravityFloor??: ??????????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRCharacterMovementComponent.cpp(1695): error C3861: ??GetGravitySpaceZ??: ??????????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRCharacterMovementComponent.cpp(1733): error C3861: ??ProjectToGravityFloor??: ??????????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRCharacterMovementComponent.cpp(2718): error C3861: ??GetGravitySpaceZ??: ??????????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRCharacterMovementComponent.cpp(2720): error C3861: ??GetGravitySpaceZ??: ??????????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRCharacterMovementComponent.cpp(2724): error C3861: ??GetGravitySpaceZ??: ??????????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRCharacterMovementComponent.cpp(2724): error C3861: ??GetGravitySpaceZ??: ??????????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRCharacterMovementComponent.cpp(2724): error C2737: ??LocationZ??: ???ʼ?? const ???
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRCharacterMovementComponent.cpp(2725): error C3861: ??SetGravitySpaceZ??: ??????????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRCharacterMovementComponent.cpp(2758): error C3861: ??ProjectToGravityFloor??: ??????????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRCharacterMovementComponent.cpp(2794): error C3861: ??ProjectToGravityFloor??: ??????????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRCharacterMovementComponent.cpp(2840): error C3861: ??GetGravitySpaceZ??: ??????????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRCharacterMovementComponent.cpp(2842): error C3861: ??GetGravitySpaceZ??: ??????????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRCharacterMovementComponent.cpp(2845): error C3861: ??GetGravitySpaceZ??: ??????????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRCharacterMovementComponent.cpp(2857): error C3861: ??ProjectToGravityFloor??: ??????????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRCharacterMovementComponent.cpp(2889): error C3861: ??GetGravitySpaceZ??: ??????????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRCharacterMovementComponent.cpp(2994): error C3861: ??ProjectToGravityFloor??: ??????????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRCharacterMovementComponent.cpp(3025): error C3861: ??ProjectToGravityFloor??: ??????????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRCharacterMovementComponent.cpp(3025): error C3861: ??GetGravitySpaceComponentZ??: ??????????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRCharacterMovementComponent.cpp(3030): error C3861: ??ProjectToGravityFloor??: ??????????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRCharacterMovementComponent.cpp(3030): error C3861: ??GetGravitySpaceComponentZ??: ??????????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRCharacterMovementComponent.cpp(3063): error C3861: ??GetGravitySpaceZ??: ??????????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRCharacterMovementComponent.cpp(3089): error C3861: ??ProjectToGravityFloor??: ??????????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRCharacterMovementComponent.cpp(3089): error C3861: ??GetGravitySpaceComponentZ??: ??????????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRCharacterMovementComponent.cpp(3093): error C3861: ??GetGravitySpaceZ??: ??????????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRCharacterMovementComponent.cpp(3093): error C3861: ??GetGravitySpaceZ??: ??????????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRCharacterMovementComponent.cpp(3093): error C3861: ??GetGravitySpaceZ??: ??????????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRCharacterMovementComponent.cpp(3098): error C3861: ??ProjectToGravityFloor??: ??????????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRCharacterMovementComponent.cpp(3121): error C3861: ??GetGravitySpaceZ??: ??????????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRCharacterMovementComponent.cpp(3125): error C3861: ??GetGravitySpaceZ??: ??????????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRCharacterMovementComponent.cpp(3125): error C2737: ??ZMovedDist??: ???ʼ?? const ???
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRCharacterMovementComponent.cpp(3126): error C3861: ??ProjectToGravityFloor??: ??????????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRCharacterMovementComponent.cpp(3126): error C2737: ??MovedDist2D??: ???ʼ?? const ???
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRCharacterMovementComponent.cpp(3187): error C3861: ??ProjectToGravityFloor??: ??????????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRCharacterMovementComponent.cpp(3190): error C3861: ??GetGravitySpaceComponentZ??: ??????????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRCharacterMovementComponent.cpp(3229): error C3861: ??ProjectToGravityFloor??: ??????????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRCharacterMovementComponent.cpp(3248): error C3861: ??ProjectToGravityFloor??: ??????????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRCharacterMovementComponent.cpp(3263): error C3861: ??ProjectToGravityFloor??: ??????????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRCharacterMovementComponent.cpp(3263): error C2737: ??DistSq2D??: ???ʼ?? const ???
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRCharacterMovementComponent.cpp(3264): error C3861: ??GetGravitySpaceZ??: ??????????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRCharacterMovementComponent.cpp(3264): error C2737: ??DistZ??: ???ʼ?? const ???
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRCharacterMovementComponent.cpp(3267): error C3861: ??GetGravitySpaceZ??: ??????????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRCharacterMovementComponent.cpp(3267): error C3861: ??GetGravitySpaceZ??: ??????????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRCharacterMovementComponent.cpp(3267): error C2737: ??ProjectionScale??: ???ʼ?? const ???
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRCharacterMovementComponent.cpp(3305): error C3861: ??GetGravitySpaceZ??: ??????????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRCharacterMovementComponent.cpp(3305): error C3861: ??SetGravitySpaceZ??: ??????????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRCharacterMovementComponent.cpp(3309): error C2065: ??bSlideAlongNavMeshEdge??: δ???ı????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRCharacterMovementComponent.cpp(3314): error C2039: "IsFollowingNavLink": ??? "IPathFollowingAgentInterface" ?ĳ??
+C:\Program Files\Epic Games\UE_5.4\Engine\Source\Runtime\Engine\Classes\AI\Navigation\PathFollowingAgentInterface.h(20): note: ?μ?PathFollowingAgentInterface??????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRCharacterMovementComponent.cpp(3314): error C2737: ??bIsOnNavLink??: ???ʼ?? const ???
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRCharacterMovementComponent.cpp(3337): error C3861: ??ProjectToGravityFloor??: ??????????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRCharacterMovementComponent.cpp(3337): error C3861: ??GetGravitySpaceComponentZ??: ??????????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRCharacterMovementComponent.cpp(3364): error C3861: ??ProjectToGravityFloor??: ??????????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRCharacterMovementComponent.cpp(3364): error C3861: ??GetGravitySpaceComponentZ??: ??????????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRCharacterMovementComponent.cpp(3423): error C3861: ??GetGravitySpaceZ??: ??????????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRCharacterMovementComponent.cpp(3426): error C3861: ??GetGravitySpaceZ??: ??????????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRCharacterMovementComponent.cpp(3429): error C3861: ??GetGravitySpaceZ??: ??????????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRCharacterMovementComponent.cpp(3429): error C2664: ??T FGenericPlatformMath::Max<double>(const TArray<double,FDefaultAllocator> &,int32 *)??: ????????1 ?ӡ?float??ת??Ϊ??const TArray<double,FDefaultAllocator> &??
+        with
+        [
+            T=double
+        ]
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRCharacterMovementComponent.cpp(3429): note: ԭ???: ????ӡ?float??ת??Ϊ??const TArray<double,FDefaultAllocator>??
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRCharacterMovementComponent.cpp(3429): note: ??TArray<double,FDefaultAllocator>::TArray??: û???????????????????
+C:\Program Files\Epic Games\UE_5.4\Engine\Source\Runtime\Core\Public\Containers\Array.h(419): note: ???ǡ?TArray<double,FDefaultAllocator>::TArray(std::initializer_list<double>)??
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRCharacterMovementComponent.cpp(3429): note: ??TArray<double,FDefaultAllocator>::TArray(std::initializer_list<double>)??: ????????1 ?ӡ?float??ת??Ϊ??std::initializer_list<double>??
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRCharacterMovementComponent.cpp(3429): note: ת??Ҫ??ڶ??????????????????????
+C:\Program Files\Epic Games\UE_5.4\Engine\Source\Runtime\Core\Public\Containers\Array.h(656): note: ??   ??TArray<double,FDefaultAllocator>::TArray(TArray<OtherElementType,TSizedDefaultAllocator<32>> &&,int)??
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRCharacterMovementComponent.cpp(3429): note: ???ƥ????б?(float)??ʱ
+C:\Program Files\Epic Games\UE_5.4\Engine\Source\Runtime\Core\Public\GenericPlatform\GenericPlatformMath.h(983): note: ?μ?GenericPlatformMath::Max??????
+C:\Program Files\Epic Games\UE_5.4\Engine\Source\Runtime\Core\Public\GenericPlatform\GenericPlatformMath.h(936): note: ???ǡ?unknown-type FGenericPlatformMath::Max(Arg1,Arg2)??
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRCharacterMovementComponent.cpp(3429): note: ??unknown-type FGenericPlatformMath::Max(Arg1,Arg2)??: Ӧ?? 2 ?????ȴ???? 1 ??
+C:\Program Files\Epic Games\UE_5.4\Engine\Source\Runtime\Core\Public\GenericPlatform\GenericPlatformMath.h(932): note: ??   ??unknown-type FGenericPlatformMath::Max(Arg1,Arg2)??
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRCharacterMovementComponent.cpp(3429): note: ??unknown-type FGenericPlatformMath::Max(Arg1,Arg2)??: Ӧ?? 2 ?????ȴ???? 1 ??
+C:\Program Files\Epic Games\UE_5.4\Engine\Source\Runtime\Core\Public\GenericPlatform\GenericPlatformMath.h(919): note: ??   ??T FGenericPlatformMath::Max(const T,const T)??
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRCharacterMovementComponent.cpp(3429): note: ??T FGenericPlatformMath::Max(const T,const T)??: Ӧ?? 2 ?????ȴ???? 1 ??
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRCharacterMovementComponent.cpp(3429): note: ???ƥ????б?(float)??ʱ
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRCharacterMovementComponent.cpp(3429): error C3861: ??SetGravitySpaceZ??: ??????????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRCharacterMovementComponent.cpp(3434): error C3861: ??SetGravitySpaceZ??: ??????????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRCharacterMovementComponent.cpp(3465): error C3861: ??GetGravitySpaceZ??: ??????????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRCharacterMovementComponent.cpp(3483): error C3861: ??GetGravitySpaceZ??: ??????????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRCharacterMovementComponent.cpp(3485): error C3861: ??GetGravitySpaceZ??: ??????????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRCharacterMovementComponent.cpp(3487): error C3861: ??SetGravitySpaceZ??: ??????????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRCharacterMovementComponent.cpp(3498): error C3861: ??GetGravitySpaceZ??: ??????????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRCharacterMovementComponent.cpp(3498): error C3861: ??GetGravitySpaceZ??: ??????????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRCharacterMovementComponent.cpp(3498): error C3861: ??SetGravitySpaceZ??: ??????????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRCharacterMovementComponent.cpp(3514): error C3861: ??GetGravitySpaceZ??: ??????????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRCharacterMovementComponent.cpp(3518): error C3861: ??SetGravitySpaceZ??: ??????????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRCharacterMovementComponent.cpp(3564): error C3861: ??GetGravitySpaceZ??: ??????????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRCharacterMovementComponent.cpp(3567): error C3861: ??ProjectToGravityFloor??: ??????????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRCharacterMovementComponent.cpp(3567): error C3861: ??SetGravitySpaceZ??: ??????????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRCharacterMovementComponent.cpp(3610): error C3861: ??ProjectToGravityFloor??: ??????????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRCharacterMovementComponent.cpp(3817): error C3861: ??GetGravitySpaceZ??: ??????????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRCharacterMovementComponent.cpp(3817): error C2737: ??bShouldFindFloor??: ???ʼ?? const ???
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRCharacterMovementComponent.cpp(3857): error C3861: ??GetGravitySpaceZ??: ??????????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRCharacterMovementComponent.cpp(3978): error C3861: ??GetGravitySpaceZ??: ??????????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRCharacterMovementComponent.cpp(4021): error C3861: ??GetGravitySpaceZ??: ??????????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRCharacterMovementComponent.cpp(4021): fatal error C1003: ????????100????ֹͣ???
+[58/88] Compile [x64] VRDialComponent.cpp
+[59/88] Compile [x64] VRGestureComponent.cpp
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\ReplicatedVRCameraComponent.h(104): error C3668: ??UReplicatedVRCameraComponent::HandleXRCamera??: ????˵???verride???ķ???û??д??λ?෽??
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\ReplicatedVRCameraComponent.h(104): warning C4263: ??void UReplicatedVRCameraComponent::HandleXRCamera(float)??: ?????????д??λ????Ա???
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\ReplicatedVRCameraComponent.h(172): warning C4264: ??void UCameraComponent::HandleXRCamera(void)??: ???д??CameraComponent???????Ա?????????????
+C:\Program Files\Epic Games\UE_5.4\Engine\Source\Runtime\Engine\Classes\Camera\CameraComponent.h(175): note: ?μ?CameraComponent::HandleXRCamera??????
+C:\Program Files\Epic Games\UE_5.4\Engine\Source\Runtime\Engine\Classes\Camera\CameraComponent.h(21): note: ?μ?CameraComponent??????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRGestureComponent.cpp(547): error C2039: "GetLineBatcher": ??? "UWorld" ?ĳ??
+C:\Program Files\Epic Games\UE_5.4\Engine\Source\Runtime\Engine\Public\VisualLogger\VisualLogger.h(202): note: ?μ?World??????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRGestureComponent.cpp(547): error C3083: ??ELineBatcherType??:??::???????????????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRGestureComponent.cpp(547): error C2039: "Foreground": ??? "UWorld" ?ĳ??
+C:\Program Files\Epic Games\UE_5.4\Engine\Source\Runtime\Engine\Public\VisualLogger\VisualLogger.h(202): note: ?μ?World??????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRGestureComponent.cpp(547): error C2065: ??Foreground??: δ???ı????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRGestureComponent.cpp(547): error C2039: "GetLineBatcher": ??? "UWorld" ?ĳ??
+C:\Program Files\Epic Games\UE_5.4\Engine\Source\Runtime\Engine\Public\VisualLogger\VisualLogger.h(202): note: ?μ?World??????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRGestureComponent.cpp(547): error C3083: ??ELineBatcherType??:??::???????????????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRGestureComponent.cpp(547): error C2039: "WorldPersistent": ??? "UWorld" ?ĳ??
+C:\Program Files\Epic Games\UE_5.4\Engine\Source\Runtime\Engine\Public\VisualLogger\VisualLogger.h(202): note: ?μ?World??????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRGestureComponent.cpp(547): error C2065: ??WorldPersistent??: δ???ı????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRGestureComponent.cpp(547): error C2039: "GetLineBatcher": ??? "UWorld" ?ĳ??
+C:\Program Files\Epic Games\UE_5.4\Engine\Source\Runtime\Engine\Public\VisualLogger\VisualLogger.h(202): note: ?μ?World??????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRGestureComponent.cpp(547): error C3083: ??ELineBatcherType??:??::???????????????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRGestureComponent.cpp(547): error C2039: "World": ??? "UWorld" ?ĳ??
+C:\Program Files\Epic Games\UE_5.4\Engine\Source\Runtime\Engine\Public\VisualLogger\VisualLogger.h(202): note: ?μ?World??????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRGestureComponent.cpp(547): error C2065: ??World??: δ???ı????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRGestureComponent.cpp(547): error C2737: ??LineBatcher??: ???ʼ?? const ???
+[60/88] Compile [x64] VREPhysicsConstraintComponent.gen.cpp
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\Misc\VREPhysicsConstraintComponent.h(32): error C2039: "SetLinearDriveAccelerationMode": ??? "UVREPhysicsConstraintComponent" ?ĳ??
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\Misc\VREPhysicsConstraintComponent.h(21): note: ?μ?VREPhysicsConstraintComponent??????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\Misc\VREPhysicsConstraintComponent.h(33): error C2039: "SetAngularDriveAccelerationMode": ??? "UVREPhysicsConstraintComponent" ?ĳ??
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\Misc\VREPhysicsConstraintComponent.h(21): note: ?μ?VREPhysicsConstraintComponent??????
+[61/88] Compile [x64] VRGripInterface.cpp
+[62/88] Compile [x64] VRGlobalSettings.cpp
+[63/88] Compile [x64] VRInteractibleFunctionLibrary.cpp
+[64/88] Compile [x64] VRGripScriptBase.cpp
+[65/88] Compile [x64] VRLogComponent.cpp
+[66/88] Compile [x64] VRExpansionFunctionLibrary.cpp
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\Grippables\GrippablePhysicsReplication.h(38): error C2504: ??IPhysicsReplicationAsync??: δ??????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\Grippables\GrippablePhysicsReplication.h(60): error C4430: ȱ???˵???- ?ٶ?Ϊ int??ע?: C++ ??֧???? int
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\Grippables\GrippablePhysicsReplication.h(60): error C2146: ?????? ȱ???>??(??????NetworkPhysicsSettingsData??????)
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\Grippables\GrippablePhysicsReplication.h(65): error C3646: ??SettingsCurrent??: δ֪?д˵???
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\Grippables\GrippablePhysicsReplication.h(65): error C4430: ȱ???˵???- ?ٶ?Ϊ int??ע?: C++ ??֧???? int
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\Grippables\GrippablePhysicsReplication.h(66): error C3646: ??SettingsDefault??: δ֪?д˵???
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\Grippables\GrippablePhysicsReplication.h(66): error C4430: ȱ???˵???- ?ٶ?Ϊ int??ע?: C++ ??֧???? int
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\Grippables\GrippablePhysicsReplication.h(68): error C4430: ȱ???˵???- ?ٶ?Ϊ int??ע?: C++ ??֧???? int
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\Grippables\GrippablePhysicsReplication.h(68): error C2146: ?????? ȱ???>??(??????NetworkPhysicsSettingsData??????)
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\Grippables\GrippablePhysicsReplication.h(60): error C3668: ??FPhysicsReplicationAsyncVR::RegisterSettings??: ????˵???verride???ķ???û??д??λ?෽??
+[67/88] Compile [x64] VRMoverComponent.cpp
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\Mover\VRMoverComponent.h(39): warning C4263: ??bool FLayeredMove_VRMovement::IsFinished(double) const??: ?????????д??λ????Ա???
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\Mover\VRMoverComponent.h(53): warning C4264: ??bool FLayeredMoveBase::IsFinished(float) const??: ???д??LayeredMoveBase???????Ա?????????????
+C:\Program Files\Epic Games\UE_5.4\Engine\Plugins\Experimental\Mover\Source\Mover\Public\LayeredMove.h(106): note: ?μ?LayeredMoveBase::IsFinished??????
+C:\Program Files\Epic Games\UE_5.4\Engine\Plugins\Experimental\Mover\Source\Mover\Public\LayeredMove.h(68): note: ?μ?LayeredMoveBase??????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\ReplicatedVRCameraComponent.h(104): error C3668: ??UReplicatedVRCameraComponent::HandleXRCamera??: ????˵???verride???ķ???û??д??λ?෽??
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\ReplicatedVRCameraComponent.h(104): warning C4263: ??void UReplicatedVRCameraComponent::HandleXRCamera(float)??: ?????????д??λ????Ա???
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\ReplicatedVRCameraComponent.h(172): warning C4264: ??void UCameraComponent::HandleXRCamera(void)??: ???д??CameraComponent???????Ա?????????????
+C:\Program Files\Epic Games\UE_5.4\Engine\Source\Runtime\Engine\Classes\Camera\CameraComponent.h(175): note: ?μ?CameraComponent::HandleXRCamera??????
+C:\Program Files\Epic Games\UE_5.4\Engine\Source\Runtime\Engine\Classes\Camera\CameraComponent.h(21): note: ?μ?CameraComponent??????
+[68/88] Compile [x64] VRFullScreenUserWidget.cpp
+[69/88] Compile [x64] VRPlayerStart.cpp
+[70/88] Compile [x64] VRPathFollowingComponent.cpp
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\ReplicatedVRCameraComponent.h(104): error C3668: ??UReplicatedVRCameraComponent::HandleXRCamera??: ????˵???verride???ķ???û??д??λ?෽??
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\ReplicatedVRCameraComponent.h(104): warning C4263: ??void UReplicatedVRCameraComponent::HandleXRCamera(float)??: ?????????д??λ????Ա???
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\ReplicatedVRCameraComponent.h(172): warning C4264: ??void UCameraComponent::HandleXRCamera(void)??: ???д??CameraComponent???????Ա?????????????
+C:\Program Files\Epic Games\UE_5.4\Engine\Source\Runtime\Engine\Classes\Camera\CameraComponent.h(175): note: ?μ?CameraComponent::HandleXRCamera??????
+C:\Program Files\Epic Games\UE_5.4\Engine\Source\Runtime\Engine\Classes\Camera\CameraComponent.h(21): note: ?μ?CameraComponent??????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\VRPathFollowingComponent.h(23): error C2061: ?????? ?????NavMovementInterface??
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\VRPathFollowingComponent.h(23): error C3668: ??UVRPathFollowingComponent::SetNavMovementInterface??: ????˵???verride???ķ???û??д??λ?෽??
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRPathFollowingComponent.cpp(34): error C2761: ??void UVRPathFollowingComponent::SetNavMovementInterface(void)??: ???????????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRPathFollowingComponent.cpp(34): error C2065: ??INavMovementInterface??: δ???ı????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRPathFollowingComponent.cpp(34): error C2065: ??NavMoveInterface??: δ???ı????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRPathFollowingComponent.cpp(35): error C2143: ?????? ȱ???;??(???{??????)
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRPathFollowingComponent.cpp(36): error C2653: ??Super??: ???????????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRPathFollowingComponent.cpp(36): error C4430: ȱ???˵???- ?ٶ?Ϊ int??ע?: C++ ??֧???? int
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRPathFollowingComponent.cpp(36): error C2065: ??NavMoveInterface??: δ???ı????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRPathFollowingComponent.cpp(38): error C2059: ????????if??
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRPathFollowingComponent.cpp(39): error C2143: ?????? ȱ???;??(???{??????)
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRPathFollowingComponent.cpp(39): error C2447: ??{??: ȱ???????????????????)
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRPathFollowingComponent.cpp(48): error C2059: ????????}??
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRPathFollowingComponent.cpp(48): error C2143: ?????? ȱ???;??(???}??????)
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRPathFollowingComponent.cpp(51): error C2143: ?????? ȱ???;??(???{??????)
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRPathFollowingComponent.cpp(51): error C2447: ??{??: ȱ???????????????????)
+[71/88] Compile [x64] VRPlayerController.cpp
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\ReplicatedVRCameraComponent.h(104): error C3668: ??UReplicatedVRCameraComponent::HandleXRCamera??: ????˵???verride???ķ???û??д??λ?෽??
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\ReplicatedVRCameraComponent.h(104): warning C4263: ??void UReplicatedVRCameraComponent::HandleXRCamera(float)??: ?????????д??λ????Ա???
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\ReplicatedVRCameraComponent.h(172): warning C4264: ??void UCameraComponent::HandleXRCamera(void)??: ???д??CameraComponent???????Ա?????????????
+C:\Program Files\Epic Games\UE_5.4\Engine\Source\Runtime\Engine\Classes\Camera\CameraComponent.h(175): note: ?μ?CameraComponent::HandleXRCamera??????
+C:\Program Files\Epic Games\UE_5.4\Engine\Source\Runtime\Engine\Classes\Camera\CameraComponent.h(21): note: ?μ?CameraComponent??????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\VRPathFollowingComponent.h(23): error C2061: ?????? ?????NavMovementInterface??
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\VRPathFollowingComponent.h(23): error C3668: ??UVRPathFollowingComponent::SetNavMovementInterface??: ????˵???verride???ķ???û??д??λ?෽??
+[72/88] Compile [x64] VRMountComponent.cpp
+[73/88] Compile [x64] VREPhysicalAnimationComponent.cpp
+[74/88] Compile [x64] VRRootComponent.cpp
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\ReplicatedVRCameraComponent.h(104): error C3668: ??UReplicatedVRCameraComponent::HandleXRCamera??: ????˵???verride???ķ???û??д??λ?෽??
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\ReplicatedVRCameraComponent.h(104): warning C4263: ??void UReplicatedVRCameraComponent::HandleXRCamera(float)??: ?????????д??λ????Ա???
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\ReplicatedVRCameraComponent.h(172): warning C4264: ??void UCameraComponent::HandleXRCamera(void)??: ???д??CameraComponent???????Ա?????????????
+C:\Program Files\Epic Games\UE_5.4\Engine\Source\Runtime\Engine\Classes\Camera\CameraComponent.h(175): note: ?μ?CameraComponent::HandleXRCamera??????
+C:\Program Files\Epic Games\UE_5.4\Engine\Source\Runtime\Engine\Classes\Camera\CameraComponent.h(21): note: ?μ?CameraComponent??????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRRootComponent.cpp(1377): error C2039: "GetItemIndex": ??? "FOverlapResult" ?ĳ??
+C:\Program Files\Epic Games\UE_5.4\Engine\Source\Runtime\Engine\Classes\Engine\OverlapResult.h(12): note: ?μ?OverlapResult??????
+[75/88] Compile [x64] VRTrackedParentInterface.cpp
+[76/88] Compile [x64] VRVehiclePawn.gen.cpp
+[77/88] Link [x64] UnrealEditor-PhilosopherVR_544.lib
+  ????????D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Intermediate\Build\Win64\x64\UnrealEditor\Development\PhilosopherVR_544\UnrealEditor-PhilosopherVR_544.lib ?Ͷ??D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Intermediate\Build\Win64\x64\UnrealEditor\Development\PhilosopherVR_544\UnrealEditor-PhilosopherVR_544.exp
+[78/88] Link [x64] UnrealEditor-VRExpansionEditor.lib
+  ????????D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Intermediate\Build\Win64\x64\UnrealEditor\Development\VRExpansionEditor\UnrealEditor-VRExpansionEditor.lib ?Ͷ??D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Intermediate\Build\Win64\x64\UnrealEditor\Development\VRExpansionEditor\UnrealEditor-VRExpansionEditor.exp
+[79/88] Compile [x64] VRLeverComponent.cpp
+[80/88] Link [x64] UnrealEditor-PhilosopherVR_544.dll
+  ????????D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Intermediate\Build\Win64\x64\UnrealEditor\Development\PhilosopherVR_544\UnrealEditor-PhilosopherVR_544.sup.lib ?Ͷ??D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Intermediate\Build\Win64\x64\UnrealEditor\Development\PhilosopherVR_544\UnrealEditor-PhilosopherVR_544.sup.exp
+[81/88] Compile [x64] VRRenderTargetManager.cpp
+[82/88] Compile [x64] VRSliderComponent.cpp
+[83/88] Compile [x64] VRStereoWidgetComponent.cpp
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\ReplicatedVRCameraComponent.h(104): error C3668: ??UReplicatedVRCameraComponent::HandleXRCamera??: ????˵???verride???ķ???û??д??λ?෽??
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\ReplicatedVRCameraComponent.h(104): warning C4263: ??void UReplicatedVRCameraComponent::HandleXRCamera(float)??: ?????????д??λ????Ա???
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\ReplicatedVRCameraComponent.h(172): warning C4264: ??void UCameraComponent::HandleXRCamera(void)??: ???д??CameraComponent???????Ա?????????????
+C:\Program Files\Epic Games\UE_5.4\Engine\Source\Runtime\Engine\Classes\Camera\CameraComponent.h(175): note: ?μ?CameraComponent::HandleXRCamera??????
+C:\Program Files\Epic Games\UE_5.4\Engine\Source\Runtime\Engine\Classes\Camera\CameraComponent.h(21): note: ?μ?CameraComponent??????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRStereoWidgetComponent.cpp(745): error C2039: "TextureObj": ??? "IStereoLayers::FLayerDesc" ?ĳ??
+C:\Program Files\Epic Games\UE_5.4\Engine\Source\Runtime\Engine\Public\IStereoLayers.h(86): note: ?μ?StereoLayers::FLayerDesc??????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRStereoWidgetComponent.cpp(900): error C2664: ??FMaterialRelevance UMaterialInterface::GetRelevance(ERHIFeatureLevel::Type) const??: ????????1 ?ӡ?EShaderPlatform??ת??Ϊ??ERHIFeatureLevel::Type??
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRStereoWidgetComponent.cpp(900): note: ת??Ϊö???????ʽǿ?ת??(static_cast??C ?ʽǿ?ת????Բ??ź???ʽǿ?ת??)
+C:\Program Files\Epic Games\UE_5.4\Engine\Source\Runtime\Engine\Classes\Materials\MaterialInterface.h(707): note: ?μ?MaterialInterface::GetRelevance??????
+D:\UE\toGithub\PhilosophyVR_544\PhilosopherVR_544\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRStereoWidgetComponent.cpp(900): note: ???ƥ????б?(EShaderPlatform)??ʱ
+[84/88] Compile [x64] VRWheeledVehicle.gen.cpp
+Total time in Parallel executor: 37.32 seconds
+Total execution time: 46.88 seconds
+LogInit: Warning: Still incompatible or missing module: PhilosopherVR_544
+LogInit: Warning: Still incompatible or missing module: VRExpansionPlugin
+LogInit: Warning: Still incompatible or missing module: VRExpansionEditor
+LogCore: Engine exit requested (reason: EngineExit() was called)
+LogExit: Preparing to exit.
+LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+LogXGEController: Cleaning working directory: C:/Users/ALIENWARE/AppData/Local/Temp/UnrealXGEWorkingDir/
+LogPakFile: Destroying PakPlatformFile
+LogExit: Exiting.
+Log file closed, 02/10/26 17:01:52

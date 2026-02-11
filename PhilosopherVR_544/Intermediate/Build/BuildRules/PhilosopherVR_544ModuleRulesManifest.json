@@ -1,0 +1,12 @@
+{
+	"SourceFiles": [
+		"D:\\UE\\toGithub\\PhilosophyVR_544\\PhilosopherVR_544\\Source\\PhilosopherVR_544\\PhilosopherVR_544.Build.cs",
+		"D:\\UE\\toGithub\\PhilosophyVR_544\\PhilosopherVR_544\\Plugins\\VRExpansionPlugin\\OpenXRExpansionPlugin\\Source\\OpenXRExpansionEditor\\OpenXRExpansionEditor.Build.cs",
+		"D:\\UE\\toGithub\\PhilosophyVR_544\\PhilosopherVR_544\\Plugins\\VRExpansionPlugin\\OpenXRExpansionPlugin\\Source\\OpenXRExpansionPlugin\\OpenXRExpansionPlugin.Build.cs",
+		"D:\\UE\\toGithub\\PhilosophyVR_544\\PhilosopherVR_544\\Plugins\\VRExpansionPlugin\\VRExpansionPlugin\\Source\\VRExpansionEditor\\VRExpansionEditor.Build.cs",
+		"D:\\UE\\toGithub\\PhilosophyVR_544\\PhilosopherVR_544\\Plugins\\VRExpansionPlugin\\VRExpansionPlugin\\Source\\VRExpansionPlugin\\VRExpansionPlugin.Build.cs",
+		"D:\\UE\\toGithub\\PhilosophyVR_544\\PhilosopherVR_544\\Source\\PhilosopherVR_544.Target.cs",
+		"D:\\UE\\toGithub\\PhilosophyVR_544\\PhilosopherVR_544\\Source\\PhilosopherVR_544Editor.Target.cs"
+	],
+	"EngineVersion": "5.4.4"
+}

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\PhilosopherVR_544.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\PhilosopherVR_544.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\PhilosopherVR_544Editor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Config\Mac">
+      <UniqueIdentifier>{C34A53DE-7A2E-391F-9292-A84444E41B18}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\Mac\MacEngine.ini">
+      <Filter>Config\Mac</Filter>
+    </None>
+    <Filter Include="Source\PhilosopherVR_544">
+      <UniqueIdentifier>{F6471179-789B-350E-B5FC-16823AC4DE26}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\PhilosopherVR_544\Btn.cpp">
+      <Filter>Source\PhilosopherVR_544</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PhilosopherVR_544\Btn.h">
+      <Filter>Source\PhilosopherVR_544</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\PhilosopherVR_544\PhilosopherVR_544.Build.cs">
+      <Filter>Source\PhilosopherVR_544</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\PhilosopherVR_544\PhilosopherVR_544.cpp">
+      <Filter>Source\PhilosopherVR_544</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PhilosopherVR_544\PhilosopherVR_544.h">
+      <Filter>Source\PhilosopherVR_544</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
