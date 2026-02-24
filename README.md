@@ -21,8 +21,6 @@ Unreal Engine 5.4.4 VR Prototype
 
 - [ ] Paint interaction on window  
 - [ ] Piano interaction prototype  
-- [ ] Move object while interacting  
-- [ ] Refactor interaction logic structure  
 - [ ] Evaluate plugin-based interaction system  
 
 ---
