@@ -72,3 +72,67 @@ Plugins/**/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+# ------------------------------
+# Unreal Editor cache / registry
+# ------------------------------
+**/AssetRegistryCache/
+**/CachedAssetRegistry*.bin
+**/Cooked/
+**/StagedBuilds/
+
+# ------------------------------
+# Unreal autosaves / backups
+# ------------------------------
+**/Autosaves/
+**/Backup/
+**/*_Auto*.uasset
+**/*_Auto*.umap
+
+# ------------------------------
+# Logs, crash reports, temp
+# ------------------------------
+*.log
+*.tmp
+*.temp
+*.bak
+*.old
+*.dmp
+*.pdb
+*.sym
+CrashReportClient/
+
+# ------------------------------
+# IDE / editor settings
+# ------------------------------
+.idea/
+.vscode/
+*.code-workspace
+
+# ------------------------------
+# OS junk
+# ------------------------------
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+
+# ---- Unreal project is in subfolder: PhilosopherVR_544/ ----
+PhilosopherVR_544/.vs/
+PhilosopherVR_544/Binaries/
+PhilosopherVR_544/DerivedDataCache/
+PhilosopherVR_544/Intermediate/
+PhilosopherVR_544/Saved/
+PhilosopherVR_544/Build/
+
+# Also ignore generated stuff under Plugins inside that project
+PhilosopherVR_544/Plugins/**/Binaries/
+PhilosopherVR_544/Plugins/**/Intermediate/
+
+# Registry / autosaves / backups
+PhilosopherVR_544/**/AssetRegistryCache/
+PhilosopherVR_544/**/CachedAssetRegistry*.bin
+PhilosopherVR_544/**/Autosaves/
+PhilosopherVR_544/**/Backup/
+PhilosopherVR_544/**/*_Auto*.uasset
+PhilosopherVR_544/**/*_Auto*.umap
