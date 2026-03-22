@@ -10,6 +10,6 @@ public class PhilosopherVR_544EditorTarget : TargetRules
 		Type = TargetType.Editor;
 		DefaultBuildSettings = BuildSettingsVersion.V5;
 
-		ExtraModuleNames.AddRange( new string[] { "PhilosopherVR_544" } );
+		ExtraModuleNames.AddRange( new string[] { "PhilosopherVR_544", "PhilosopherVR_544Editor" } );
 	}
 }
